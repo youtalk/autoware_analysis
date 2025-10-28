@@ -41,20 +41,7 @@ Total Contributors Growth (2022-2025)
 
 ### Contributors Growth Visualization
 
-```dot
-digraph G {
-    rankdir=LR;
-    node [shape=box, style=filled, fillcolor=lightblue];
-
-    "2022-01\n1" -> "2022-06\n164" [label="+163"];
-    "2022-06\n164" -> "2022-12\n294" [label="+130"];
-    "2022-12\n294" -> "2023-06\n395" [label="+101"];
-    "2023-06\n395" -> "2023-12\n559" [label="+164"];
-    "2023-12\n559" -> "2024-06\n678" [label="+119"];
-    "2024-06\n678" -> "2024-12\n873" [label="+195"];
-    "2024-12\n873" -> "2025-10\n1,085" [label="+212"];
-}
-```
+![Contributors Growth Timeline](graphs/contributors_growth.png)
 
 ### Detailed Growth Breakdown with Visual Bars
 
@@ -108,23 +95,7 @@ Total Unique Contributors: 1,085
 Overlap: ~246 contributors participate in both code and community activities
 ```
 
-```dot
-digraph ContributorTypes {
-    graph [rankdir=TB, splines=ortho];
-    node [shape=box, style="rounded,filled", fillcolor=lightblue];
-
-    All [label="Total Contributors\n1,085", fillcolor=lightgreen, fontsize=14, fontweight=bold];
-    Code [label="Code Contributors\n(PRs)\n401", fillcolor=lightyellow];
-    Community [label="Community Contributors\n(Issues/Discussions)\n930", fillcolor=lightpink];
-
-    All -> Code [label="37%"];
-    All -> Community [label="86%"];
-
-    Both [label="Both Activities\n~246", fillcolor=lightcoral, shape=ellipse];
-    Code -> Both [dir=none, style=dashed];
-    Community -> Both [dir=none, style=dashed];
-}
-```
+![Contributor Types Distribution](graphs/contributor_types.png)
 
 **Analysis**:
 - Community contributors outnumber code contributors by approximately 2.3x
@@ -160,39 +131,7 @@ External Contributors ███████████████████�
 TIER IV Engineers     █████ 93 (10%)
 ```
 
-```dot
-digraph TierIVImpact {
-    graph [rankdir=LR];
-    node [shape=box, style="rounded,filled"];
-
-    subgraph cluster_total {
-        label="Total Contributors (1,085)";
-        style=filled;
-        fillcolor=lightgray;
-
-        T_External [label="External\n954 (88%)", fillcolor=lightgreen];
-        T_TierIV [label="TIER IV\n131 (12%)", fillcolor=lightyellow];
-    }
-
-    subgraph cluster_code {
-        label="Code Contributors (401)";
-        style=filled;
-        fillcolor=lightgray;
-
-        C_External [label="External\n283 (71%)", fillcolor=lightgreen];
-        C_TierIV [label="TIER IV\n118 (29%)", fillcolor=lightyellow];
-    }
-
-    subgraph cluster_community {
-        label="Community Contributors (930)";
-        style=filled;
-        fillcolor=lightgray;
-
-        M_External [label="External\n837 (90%)", fillcolor=lightgreen];
-        M_TierIV [label="TIER IV\n93 (10%)", fillcolor=lightyellow];
-    }
-}
-```
+![TIER IV vs External Contributors](graphs/tier4_impact.png)
 
 | Category | Total | TIER IV | External | External % |
 |----------|-------|---------|----------|------------|
@@ -226,23 +165,7 @@ autoware_msgs           ██ 56
                         0    100   200   300   400   500   600   700
 ```
 
-```dot
-digraph RepoActivity {
-    graph [rankdir=TB];
-    node [shape=cylinder, style=filled];
-
-    autoware_universe [label="autoware_universe\n641 contributors", fillcolor=red, fontcolor=white, width=3];
-    autoware [label="autoware\n285 contributors", fillcolor=orange, width=2];
-    documentation [label="autoware-documentation\n182 contributors", fillcolor=yellow, width=1.5];
-    launch [label="autoware_launch\n171 contributors", fillcolor=lightgreen, width=1.5];
-    core [label="autoware_core\n98 contributors", fillcolor=lightblue, width=1];
-    msgs [label="autoware_msgs\n56 contributors", fillcolor=lightgray, width=0.8];
-
-    {rank=same; autoware_universe autoware}
-    {rank=same; documentation launch}
-    {rank=same; core msgs}
-}
-```
+![Repository Activity Breakdown](graphs/repo_activity.png)
 
 ### Detailed Repository Statistics
 
@@ -303,20 +226,7 @@ GitHub Stars Growth (2015-2025)
         0      2K     4K     6K     8K     10K    12K
 ```
 
-```dot
-digraph StarGrowth {
-    rankdir=LR;
-    node [shape=star, style=filled, fillcolor=gold];
-    edge [color=orange, penwidth=2];
-
-    "2015\n4★" -> "2016\n77★";
-    "2016\n77★" -> "2020\n2,500★";
-    "2020\n2,500★" -> "2022\n5,000★";
-    "2022\n5,000★" -> "2023\n8,200★";
-    "2023\n8,200★" -> "2024\n10,200★";
-    "2024\n10,200★" -> "2025\n10,499★" [penwidth=3, color=red];
-}
-```
+![GitHub Star Growth Timeline](graphs/star_growth.png)
 
 ### Annual Star Acquisition Rate
 
@@ -425,24 +335,7 @@ Star Recognition        ██████████████████�
 Global Reach            ██████████████████████████████████████ 75%
 ```
 
-```dot
-digraph Achievements {
-    graph [rankdir=TB, splines=ortho];
-    node [shape=box, style="rounded,filled", fontsize=12];
-
-    Autoware [label="Autoware Project\n2022-2025", fillcolor=lightblue, shape=box3d, fontsize=14, fontweight=bold];
-
-    Contributors [label="1,085 Contributors", fillcolor=lightgreen];
-    Stars [label="10,499 GitHub Stars", fillcolor=gold];
-    Diversity [label="88% External\nContributors", fillcolor=lightpink];
-    Growth [label="20%+ Annual\nGrowth", fillcolor=lightyellow];
-
-    Autoware -> Contributors [label="Growth"];
-    Autoware -> Stars [label="Recognition"];
-    Autoware -> Diversity [label="Community"];
-    Autoware -> Growth [label="Momentum"];
-}
-```
+![Key Achievements Overview](graphs/achievements.png)
 
 1. **Global Community Formation**: 88% external contributors demonstrate high diversity
 2. **Sustained Growth**: Stable 20%+ annual contributor growth

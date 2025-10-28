@@ -1,0 +1,16 @@
+digraph Achievements {
+    graph [rankdir=TB, splines=ortho];
+    node [shape=box, style="rounded,filled", fontsize=12];
+
+    Autoware [label="Autoware Project\n2022-2025", fillcolor=lightblue, shape=box3d, fontsize=14, fontweight=bold];
+
+    Contributors [label="1,085 Contributors", fillcolor=lightgreen];
+    Stars [label="10,499 GitHub Stars", fillcolor=gold];
+    Diversity [label="88% External\nContributors", fillcolor=lightpink];
+    Growth [label="20%+ Annual\nGrowth", fillcolor=lightyellow];
+
+    Autoware -> Contributors [label="Growth"];
+    Autoware -> Stars [label="Recognition"];
+    Autoware -> Diversity [label="Community"];
+    Autoware -> Growth [label="Momentum"];
+}

@@ -1,0 +1,15 @@
+digraph ContributorTypes {
+    graph [rankdir=TB, splines=ortho];
+    node [shape=box, style="rounded,filled", fillcolor=lightblue];
+
+    All [label="Total Contributors\n1,085", fillcolor=lightgreen, fontsize=14, fontweight=bold];
+    Code [label="Code Contributors\n(PRs)\n401", fillcolor=lightyellow];
+    Community [label="Community Contributors\n(Issues/Discussions)\n930", fillcolor=lightpink];
+
+    All -> Code [label="37%"];
+    All -> Community [label="86%"];
+
+    Both [label="Both Activities\n~246", fillcolor=lightcoral, shape=ellipse];
+    Code -> Both [dir=none, style=dashed];
+    Community -> Both [dir=none, style=dashed];
+}

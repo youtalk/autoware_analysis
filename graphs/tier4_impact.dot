@@ -1,0 +1,31 @@
+digraph TierIVImpact {
+    graph [rankdir=LR];
+    node [shape=box, style="rounded,filled"];
+
+    subgraph cluster_total {
+        label="Total Contributors (1,085)";
+        style=filled;
+        fillcolor=lightgray;
+
+        T_External [label="External\n954 (88%)", fillcolor=lightgreen];
+        T_TierIV [label="TIER IV\n131 (12%)", fillcolor=lightyellow];
+    }
+
+    subgraph cluster_code {
+        label="Code Contributors (401)";
+        style=filled;
+        fillcolor=lightgray;
+
+        C_External [label="External\n283 (71%)", fillcolor=lightgreen];
+        C_TierIV [label="TIER IV\n118 (29%)", fillcolor=lightyellow];
+    }
+
+    subgraph cluster_community {
+        label="Community Contributors (930)";
+        style=filled;
+        fillcolor=lightgray;
+
+        M_External [label="External\n837 (90%)", fillcolor=lightgreen];
+        M_TierIV [label="TIER IV\n93 (10%)", fillcolor=lightyellow];
+    }
+}

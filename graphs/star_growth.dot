@@ -1,0 +1,12 @@
+digraph StarGrowth {
+    rankdir=LR;
+    node [shape=star, style=filled, fillcolor=gold];
+    edge [color=orange, penwidth=2];
+
+    "2015\n4★" -> "2016\n77★";
+    "2016\n77★" -> "2020\n2,500★";
+    "2020\n2,500★" -> "2022\n5,000★";
+    "2022\n5,000★" -> "2023\n8,200★";
+    "2023\n8,200★" -> "2024\n10,200★";
+    "2024\n10,200★" -> "2025\n10,499★" [penwidth=3, color=red];
+}

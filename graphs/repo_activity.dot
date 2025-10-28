@@ -1,0 +1,15 @@
+digraph RepoActivity {
+    graph [rankdir=TB];
+    node [shape=cylinder, style=filled];
+
+    autoware_universe [label="autoware_universe\n641 contributors", fillcolor=red, fontcolor=white, width=3];
+    autoware [label="autoware\n285 contributors", fillcolor=orange, width=2];
+    documentation [label="autoware-documentation\n182 contributors", fillcolor=yellow, width=1.5];
+    launch [label="autoware_launch\n171 contributors", fillcolor=lightgreen, width=1.5];
+    core [label="autoware_core\n98 contributors", fillcolor=lightblue, width=1];
+    msgs [label="autoware_msgs\n56 contributors", fillcolor=lightgray, width=0.8];
+
+    {rank=same; autoware_universe autoware}
+    {rank=same; documentation launch}
+    {rank=same; core msgs}
+}

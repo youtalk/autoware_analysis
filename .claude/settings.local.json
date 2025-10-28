@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 generate_json.py)",
+      "Bash(python3 count_contributors.py)",
+      "Bash(python3 get_contributor_history.py)",
+      "Bash(python3 get_tier4_engineers.py)",
+      "Bash(python3 remove_tier4_engineers.py)",
+      "Bash(python3 get_stars.py)",
+      "Bash(python3 reformat_stargazers.py)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -1,1 +1,1 @@
-{"data":{"repository":{"pullRequests":{"totalCount":15,"edges":[]}}}}
+{"data":{"repository":{"stargazers":{"totalCount":100,"edges":[]}}}}

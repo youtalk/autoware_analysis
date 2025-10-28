@@ -69,7 +69,7 @@ The star counting process (`get_stars.py`) has been enhanced to provide an accur
 5. **Generate aggregate data**: Final deduplicated data in `stars/stargazers.json`
 
 #### Why This Matters
-The current star count (10,499) represents **unique individuals** who have engaged with the Autoware ecosystem, not just stars on a single repository. This provides a more accurate measure of the project's reach and community size.
+The current star count (11,212) represents **unique individuals** who have engaged with the Autoware ecosystem, not just stars on a single repository. This provides a more accurate measure of the project's reach and community size.
 
 **Example**: If user `johndoe` starred `autoware` on 2022-01-15 and `autoware_universe` on 2022-03-20, they are counted once with the date 2022-01-15.
 
@@ -128,7 +128,7 @@ python -m pytest tests/ --cov=utils --cov-report=html
 
 ## Notes
 
-- **Star data represents unique users**: The 10,499 star count represents deduplicated users across all 6 repositories, providing an accurate measure of unique community members who have starred any Autoware repository
+- **Star data represents unique users**: The 11,212 star count represents deduplicated users across all 6 repositories, providing an accurate measure of unique community members who have starred any Autoware repository
 - **Star data fetching takes time**: Fetching takes 10-30 minutes as it must query stargazers from 6 repositories and merge/deduplicate the results
 - All data is fetched via GitHub GraphQL API using `gh` CLI
 - Date filtering: Analysis starts from 2022-01-01 for current repos

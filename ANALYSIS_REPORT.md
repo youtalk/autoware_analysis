@@ -14,7 +14,7 @@ This report analyzes contributor activity across multiple Autoware Foundation re
 | **Total Contributors** | **1,085** |
 | **Code Contributors** | 401 |
 | **Community Contributors** | 930 |
-| **GitHub Stars** | 10,499⭐ |
+| **GitHub Stars** | 11,212⭐ |
 | **TIER IV Engineers Ratio** | ~12% (131 members) |
 
 ---
@@ -208,7 +208,7 @@ autoware_ai_messages     █ 5
 
 ## ⭐ GitHub Stars Trajectory
 
-**Note**: The star count (10,499) represents **unique users** who have starred any Autoware repository. Stars are deduplicated across 6 repositories (autoware, autoware_universe, autoware_core, autoware_msgs, autoware_launch, autoware-documentation) to count each individual once, using their earliest star date. This provides an accurate measure of unique community members engaged with the Autoware ecosystem.
+**Note**: The star count (11,212) represents **unique users** who have starred any Autoware repository. Stars are deduplicated across 6 repositories (autoware, autoware_universe, autoware_core, autoware_msgs, autoware_launch, autoware-documentation) to count each individual once, using their earliest star date. This provides an accurate measure of unique community members engaged with the Autoware ecosystem.
 
 ### Star Growth Timeline
 
@@ -223,7 +223,7 @@ GitHub Stars Growth (2015-2025)
 2022-12 |████████████████████████                                        | 5,000
 2023-12 |████████████████████████████████████                            | 8,200
 2024-12 |████████████████████████████████████████████████                | 10,200
-2025-10 |██████████████████████████████████████████████████              | 10,499
+2025-10 |███████████████████████████████████████████████████████████████| 11,212
 
         0      2K     4K     6K     8K     10K    12K
 ```
@@ -237,11 +237,11 @@ GitHub Stars Growth (2015-2025)
 | 2022 | ~4,800 | ~6,500 | 1,700 | 35% | █████████████████ |
 | 2023 | ~6,500 | ~8,200 | 1,700 | 26% | █████████████ |
 | 2024 | ~8,200 | ~10,200 | 2,000 | 24% | ████████████ |
-| 2025 (Oct) | ~10,200 | 10,499 | 299 | 3% | █ |
+| 2025 (Oct) | ~10,200 | 11,212 | 1,012 | 9.9% | ████ |
 
 **Trend Analysis**:
 - Consistent annual growth of 1,700-2,000 stars from 2022-2024
-- Surpassed 10,499 stars as of October 2025
+- Surpassed 11,000 stars as of October 2025
 - Average monthly acquisition rate: ~150-170 stars
 - Demonstrates steady recognition growth in autonomous driving field
 
@@ -322,7 +322,7 @@ Growth: ████████████████████████
 
 ## 📝 Conclusion
 
-Since 2022, the Autoware project has achieved **1,085 contributors** and **10,499 stars**, establishing itself as a leading open-source project in the autonomous driving software domain.
+Since 2022, the Autoware project has achieved **1,085 contributors** and **11,212 stars**, establishing itself as a leading open-source project in the autonomous driving software domain.
 
 ### Key Achievements
 

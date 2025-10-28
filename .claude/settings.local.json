@@ -11,7 +11,8 @@
       "Bash(dot -Tpng:*)",
       "Bash(dot:*)",
       "Bash(cat:*)",
-      "Bash(awk:*)"
+      "Bash(awk:*)",
+      "Bash(python3:*)"
     ],
     "deny": [],
     "ask": []

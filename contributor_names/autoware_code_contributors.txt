@@ -144,7 +144,6 @@ atomyks
 atsushi421
 awf-autoware-bot
 badai-nguyen
-bartek-kc
 bathteayo
 batuhanbeytekin
 bdm-k
@@ -320,7 +319,6 @@ sebekx
 senagolcuk
 sezan92
 sfukuta
-sgk-000
 shahriar0651
 shaoniandujianyiqingqiu
 shmpwk

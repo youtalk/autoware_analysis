@@ -38,9 +38,6 @@ CountNonTierIVUsers("contributor_names/universe_prs.txt", tier4_engineers)
 CountNonTierIVUsers("contributor_names/autoware_core_issues.txt", tier4_engineers)
 CountNonTierIVUsers("contributor_names/autoware_core_prs.txt", tier4_engineers)
 
-CountNonTierIVUsers("contributor_names/autoware_common_issues.txt", tier4_engineers)
-CountNonTierIVUsers("contributor_names/autoware_common_prs.txt", tier4_engineers)
-
 CountNonTierIVUsers("contributor_names/autoware_msgs_issues.txt", tier4_engineers)
 CountNonTierIVUsers("contributor_names/autoware_msgs_prs.txt", tier4_engineers)
 

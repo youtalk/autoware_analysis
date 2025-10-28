@@ -103,21 +103,6 @@ autoware_core_prs += getContributors(json_file, contributor_type)
 contributors += autoware_core_prs
 writeNamesToFile(autoware_core_prs, "autoware_core_prs.txt")
 
-## autoware_common
-autoware_common_issues = []
-contributor_type="issues"
-json_file="generated_json/autoware_common_issues.json"
-autoware_common_issues += getContributors(json_file, contributor_type)
-contributors += autoware_common_issues
-writeNamesToFile(autoware_common_issues, "autoware_common_issues.txt")
-
-autoware_common_prs = []
-contributor_type="pullRequests"
-json_file="generated_json/autoware_common_prs.json"
-autoware_common_prs += getContributors(json_file, contributor_type)
-contributors += autoware_common_prs
-writeNamesToFile(autoware_common_prs, "autoware_common_prs.txt")
-
 ## autoware_msgs
 autoware_msgs_issues = []
 contributor_type="issues"
@@ -282,14 +267,12 @@ autoware_code_contributors = autoware_prs \
                            + autoware_core_prs \
                            + universe_prs \
                            + autoware_msgs_prs \
-                           + autoware_common_prs \
                            + autoware_launch_prs \
                            + autoware_documentation_prs
 autoware_community_contributors = autoware_discussions \
                                 + autoware_issues \
                                 + universe_issues \
                                 + autoware_msgs_issues \
-                                + autoware_common_issues \
                                 + autoware_launch_issues \
                                 + autoware_documentation_issues 
 autoware_contributors = autoware_code_contributors + autoware_community_contributors

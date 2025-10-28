@@ -81,7 +81,7 @@ universe_issues = []
 cursor_script="get_first_issue.sh"
 script="query_issues.sh"
 contributor_type="issues"
-repository="autoware.universe"
+repository="autoware_universe"
 universe_issues += getContributors(script, cursor_script, contributor_type, repository)
 contributors += universe_issues
 dumpJson(universe_issues, "universe_issues.json")
@@ -90,7 +90,7 @@ universe_prs = []
 cursor_script="get_first_pr.sh"
 script="query_prs.sh"
 contributor_type="pullRequests"
-repository="autoware.universe"
+repository="autoware_universe"
 universe_prs += getContributors(script, cursor_script, contributor_type, repository)
 contributors += universe_prs
 dumpJson(universe_prs, "universe_prs.json")
@@ -100,7 +100,7 @@ autoware_core_issues = []
 cursor_script="get_first_issue.sh"
 script="query_issues.sh"
 contributor_type="issues"
-repository="autoware.core"
+repository="autoware_core"
 autoware_core_issues += getContributors(script, cursor_script, contributor_type, repository)
 contributors += autoware_core_issues
 dumpJson(autoware_core_issues, "autoware_core_issues.json")
@@ -109,29 +109,10 @@ autoware_core_prs = []
 cursor_script="get_first_pr.sh"
 script="query_prs.sh"
 contributor_type="pullRequests"
-repository="autoware.core"
+repository="autoware_core"
 autoware_core_prs += getContributors(script, cursor_script, contributor_type, repository)
 contributors += autoware_core_prs
 dumpJson(autoware_core_prs, "autoware_core_prs.json")
-
-## autoware_common
-autoware_common_issues = []
-cursor_script="get_first_issue.sh"
-script="query_issues.sh"
-contributor_type="issues"
-repository="autoware_common"
-autoware_common_issues += getContributors(script, cursor_script, contributor_type, repository)
-contributors += autoware_common_issues
-dumpJson(autoware_common_issues, "autoware_common_issues.json")
-
-autoware_common_prs = []
-cursor_script="get_first_pr.sh"
-script="query_prs.sh"
-contributor_type="pullRequests"
-repository="autoware_common"
-autoware_common_prs += getContributors(script, cursor_script, contributor_type, repository)
-contributors += autoware_common_prs
-dumpJson(autoware_common_prs, "autoware_common_prs.json")
 
 ## autoware_msgs
 autoware_msgs_issues = []

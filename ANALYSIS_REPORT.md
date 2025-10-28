@@ -11,11 +11,11 @@ This report analyzes contributor activity across multiple Autoware Foundation re
 
 | Metric | Value |
 |--------|-------|
-| **Total Contributors** | **1,087** |
-| **Code Contributors** | 403 |
-| **Community Contributors** | 931 |
+| **Total Contributors** | **1,085** |
+| **Code Contributors** | 401 |
+| **Community Contributors** | 930 |
 | **GitHub Stars** | 10,499⭐ |
-| **Tier4 Engineers Ratio** | ~12% (131 members) |
+| **TIER IV Engineers Ratio** | ~12% (131 members) |
 
 ---
 
@@ -28,15 +28,32 @@ Total Contributors Growth (2022-2025)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 2022-01 |█                                                              | 1
-2022-06 |███████████████                                                | 165
-2022-12 |███████████████████████████                                    | 296
-2023-06 |████████████████████████████████████                           | 396
-2023-12 |██████████████████████████████████████████████████             | 560
-2024-06 |████████████████████████████████████████████████████████████   | 680
-2024-12 |███████████████████████████████████████████████████████████████| 875
-2025-10 |███████████████████████████████████████████████████████████████| 1,087
+2022-06 |███████████████                                                | 164
+2022-12 |███████████████████████████                                    | 294
+2023-06 |████████████████████████████████████                           | 395
+2023-12 |██████████████████████████████████████████████████             | 559
+2024-06 |████████████████████████████████████████████████████████████   | 678
+2024-12 |███████████████████████████████████████████████████████████████| 873
+2025-10 |███████████████████████████████████████████████████████████████| 1,085
 
         0        200       400       600       800      1,000     1,200
+```
+
+### Contributors Growth Visualization
+
+```dot
+digraph G {
+    rankdir=LR;
+    node [shape=box, style=filled, fillcolor=lightblue];
+
+    "2022-01\n1" -> "2022-06\n164" [label="+163"];
+    "2022-06\n164" -> "2022-12\n294" [label="+130"];
+    "2022-12\n294" -> "2023-06\n395" [label="+101"];
+    "2023-06\n395" -> "2023-12\n559" [label="+164"];
+    "2023-12\n559" -> "2024-06\n678" [label="+119"];
+    "2024-06\n678" -> "2024-12\n873" [label="+195"];
+    "2024-12\n873" -> "2025-10\n1,085" [label="+212"];
+}
 ```
 
 ### Detailed Growth Breakdown with Visual Bars
@@ -44,13 +61,13 @@ Total Contributors Growth (2022-2025)
 | Period | Total | Code | Community | Visual Growth |
 |--------|-------|------|-----------|---------------|
 | **2022-01** | 1 | 1 | 0 | ░ |
-| **2022-06** | 165 | 91 | 133 | ███████████░░░░░░░░░░ (15%) |
-| **2022-12** | 296 | 142 | 255 | ███████████████░░░░░░ (27%) |
-| **2023-06** | 396 | 174 | 349 | ████████████████████░ (36%) |
-| **2023-12** | 560 | 232 | 483 | ██████████████████████████░░ (52%) |
-| **2024-06** | 680 | 279 | 585 | ████████████████████████████████ (63%) |
-| **2024-12** | 875 | 338 | 751 | ████████████████████████████████████████ (80%) |
-| **2025-10** | 1,087 | 402 | 927 | ██████████████████████████████████████████████ (100%) |
+| **2022-06** | 164 | 91 | 132 | ███████████░░░░░░░░░░ (15%) |
+| **2022-12** | 294 | 141 | 254 | ███████████████░░░░░░ (27%) |
+| **2023-06** | 395 | 173 | 349 | ████████████████████░ (36%) |
+| **2023-12** | 559 | 231 | 483 | ██████████████████████████░░ (52%) |
+| **2024-06** | 678 | 277 | 584 | ████████████████████████████████ (62%) |
+| **2024-12** | 873 | 336 | 750 | ████████████████████████████████████████ (80%) |
+| **2025-10** | 1,085 | 400 | 926 | ██████████████████████████████████████████████ (100%) |
 
 ### Monthly Growth Rate Visualization
 
@@ -82,60 +99,112 @@ Contributor Distribution
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 Community Contributors (Issues/Discussions)
-███████████████████████████████████████████████████████████████████ 931 (70%)
+███████████████████████████████████████████████████████████████████ 930 (70%)
 
 Code Contributors (Pull Requests)
-███████████████████████████ 403 (30%)
+███████████████████████████ 401 (30%)
 
-Total Unique Contributors: 1,087
-Overlap: ~247 contributors participate in both code and community activities
+Total Unique Contributors: 1,085
+Overlap: ~246 contributors participate in both code and community activities
+```
+
+```dot
+digraph ContributorTypes {
+    graph [rankdir=TB, splines=ortho];
+    node [shape=box, style="rounded,filled", fillcolor=lightblue];
+
+    All [label="Total Contributors\n1,085", fillcolor=lightgreen, fontsize=14, fontweight=bold];
+    Code [label="Code Contributors\n(PRs)\n401", fillcolor=lightyellow];
+    Community [label="Community Contributors\n(Issues/Discussions)\n930", fillcolor=lightpink];
+
+    All -> Code [label="37%"];
+    All -> Community [label="86%"];
+
+    Both [label="Both Activities\n~246", fillcolor=lightcoral, shape=ellipse];
+    Code -> Both [dir=none, style=dashed];
+    Community -> Both [dir=none, style=dashed];
+}
 ```
 
 **Analysis**:
 - Community contributors outnumber code contributors by approximately 2.3x
 - This indicates many users actively use Autoware and participate in feedback and discussions
-- Approximately 37% of code contributors are unique, showing high technical engagement
+- Approximately 37% of total contributors make code contributions, showing high technical engagement
 - About 23% of contributors engage in both code and community activities
 
 ---
 
-## 🏢 Tier4 Engineers Impact Analysis
+## 🏢 TIER IV Engineers Impact Analysis
 
-### Tier4 vs External Contributors Visualization
+### TIER IV vs External Contributors Visualization
 
 ```
-Total Contributors (1,087)
+Total Contributors (1,085)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-External Contributors ██████████████████████████████████████████████ 956 (88%)
-Tier4 Engineers       ██████ 131 (12%)
+External Contributors ██████████████████████████████████████████████ 954 (88%)
+TIER IV Engineers     ██████ 131 (12%)
 
 
-Code Contributors (403)
+Code Contributors (401)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-External Contributors ███████████████████████████████████ 285 (71%)
-Tier4 Engineers       ██████████████ 118 (29%)
+External Contributors ███████████████████████████████████ 283 (71%)
+TIER IV Engineers     ██████████████ 118 (29%)
 
 
-Community Contributors (931)
+Community Contributors (930)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-External Contributors ███████████████████████████████████████████████ 838 (90%)
-Tier4 Engineers       █████ 93 (10%)
+External Contributors ███████████████████████████████████████████████ 837 (90%)
+TIER IV Engineers     █████ 93 (10%)
 ```
 
-| Category | Total | Tier4 | External | External % |
-|----------|-------|-------|----------|------------|
-| Total Contributors | 1,087 | 131 | 956 | **87.9%** |
-| Code Contributors | 403 | 118 | 285 | **70.7%** |
-| Community Contributors | 931 | 93 | 838 | **90.0%** |
+```dot
+digraph TierIVImpact {
+    graph [rankdir=LR];
+    node [shape=box, style="rounded,filled"];
+
+    subgraph cluster_total {
+        label="Total Contributors (1,085)";
+        style=filled;
+        fillcolor=lightgray;
+
+        T_External [label="External\n954 (88%)", fillcolor=lightgreen];
+        T_TierIV [label="TIER IV\n131 (12%)", fillcolor=lightyellow];
+    }
+
+    subgraph cluster_code {
+        label="Code Contributors (401)";
+        style=filled;
+        fillcolor=lightgray;
+
+        C_External [label="External\n283 (71%)", fillcolor=lightgreen];
+        C_TierIV [label="TIER IV\n118 (29%)", fillcolor=lightyellow];
+    }
+
+    subgraph cluster_community {
+        label="Community Contributors (930)";
+        style=filled;
+        fillcolor=lightgray;
+
+        M_External [label="External\n837 (90%)", fillcolor=lightgreen];
+        M_TierIV [label="TIER IV\n93 (10%)", fillcolor=lightyellow];
+    }
+}
+```
+
+| Category | Total | TIER IV | External | External % |
+|----------|-------|---------|----------|------------|
+| Total Contributors | 1,085 | 131 | 954 | **87.9%** |
+| Code Contributors | 401 | 118 | 283 | **70.6%** |
+| Community Contributors | 930 | 93 | 837 | **90.0%** |
 
 **Key Findings**:
 1. **External contributors dominate**: Approximately 88% are external contributors
-2. **Code contribution ratio**: 70.7% are external engineers
+2. **Code contribution ratio**: 70.6% are external engineers
 3. **Community activity**: 90% feedback comes from external users
-4. Tier4 handles core maintenance while fostering community-driven development
+4. TIER IV handles core maintenance while fostering community-driven development
 
 ---
 
@@ -147,36 +216,52 @@ Tier4 Engineers       █████ 93 (10%)
 Repository Activity (Total Contributors)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-autoware.universe        ████████████████████████████████ 641
-autoware                 ██████████████ 285
-autoware-documentation   █████████ 182
-autoware_launch          ████████ 171
-autoware.core            ████ 98
-autoware_msgs            ██ 56
-autoware_common          ██ 54
+autoware_universe       ████████████████████████████████ 641
+autoware                ██████████████ 285
+autoware-documentation  █████████ 182
+autoware_launch         ████████ 171
+autoware_core           ████ 98
+autoware_msgs           ██ 56
 
-                         0    100   200   300   400   500   600   700
+                        0    100   200   300   400   500   600   700
+```
+
+```dot
+digraph RepoActivity {
+    graph [rankdir=TB];
+    node [shape=cylinder, style=filled];
+
+    autoware_universe [label="autoware_universe\n641 contributors", fillcolor=red, fontcolor=white, width=3];
+    autoware [label="autoware\n285 contributors", fillcolor=orange, width=2];
+    documentation [label="autoware-documentation\n182 contributors", fillcolor=yellow, width=1.5];
+    launch [label="autoware_launch\n171 contributors", fillcolor=lightgreen, width=1.5];
+    core [label="autoware_core\n98 contributors", fillcolor=lightblue, width=1];
+    msgs [label="autoware_msgs\n56 contributors", fillcolor=lightgray, width=0.8];
+
+    {rank=same; autoware_universe autoware}
+    {rank=same; documentation launch}
+    {rank=same; core msgs}
+}
 ```
 
 ### Detailed Repository Statistics
 
-| Repository | Issues | PRs | Total | Tier4 % |
-|-----------|--------|-----|-------|---------|
-| **autoware.universe** | 313 (58) | 328 (105) | 641 | 25.4% ████████ |
+| Repository | Issues | PRs | Total | TIER IV % |
+|-----------|--------|-----|-------|-----------|
+| **autoware_universe** | 313 (58) | 328 (105) | 641 | 25.4% ████████ |
 | **autoware** | 173 (30) | 112 (46) | 285 | 26.7% █████████ |
 | **autoware-documentation** | 45 (14) | 137 (52) | 182 | 36.3% ████████████ |
 | **autoware_launch** | 29 (7) | 142 (71) | 171 | 45.6% ███████████████ |
-| **autoware.core** | 23 (10) | 75 (38) | 98 | 49.0% ████████████████ |
+| **autoware_core** | 23 (10) | 75 (38) | 98 | 49.0% ████████████████ |
 | **autoware_msgs** | 10 (3) | 46 (18) | 56 | 37.5% ████████████ |
-| **autoware_common** | 8 (3) | 46 (22) | 54 | 46.3% ███████████████ |
 
-*Numbers in parentheses indicate Tier4 engineers*
+*Numbers in parentheses indicate TIER IV engineers*
 
 **Insights**:
-- **autoware.universe** is the most active repository (641 contributors)
+- **autoware_universe** is the most active repository (641 contributors)
 - **autoware_launch** has many PR contributors, showing high implementation interest
 - Documentation repository has 182 contributors, indicating active education and outreach
-- Lower-level repositories (core, common) have higher Tier4 ratios, showing strategic focus
+- Lower-level repositories (core, msgs) have higher TIER IV ratios, showing strategic focus
 
 ### Legacy Repositories (Autoware.AI)
 
@@ -216,6 +301,21 @@ GitHub Stars Growth (2015-2025)
 2025-10 |██████████████████████████████████████████████████              | 10,499
 
         0      2K     4K     6K     8K     10K    12K
+```
+
+```dot
+digraph StarGrowth {
+    rankdir=LR;
+    node [shape=star, style=filled, fillcolor=gold];
+    edge [color=orange, penwidth=2];
+
+    "2015\n4★" -> "2016\n77★";
+    "2016\n77★" -> "2020\n2,500★";
+    "2020\n2,500★" -> "2022\n5,000★";
+    "2022\n5,000★" -> "2023\n8,200★";
+    "2023\n8,200★" -> "2024\n10,200★";
+    "2024\n10,200★" -> "2025\n10,499★" [penwidth=3, color=red];
+}
 ```
 
 ### Annual Star Acquisition Rate
@@ -310,7 +410,7 @@ Growth: ████████████████████████
 
 ## 📝 Conclusion
 
-Since 2022, the Autoware project has achieved **1,087 contributors** and **10,499 stars**, establishing itself as a leading open-source project in the autonomous driving software domain.
+Since 2022, the Autoware project has achieved **1,085 contributors** and **10,499 stars**, establishing itself as a leading open-source project in the autonomous driving software domain.
 
 ### Key Achievements
 
@@ -325,10 +425,29 @@ Star Recognition        ██████████████████�
 Global Reach            ██████████████████████████████████████ 75%
 ```
 
+```dot
+digraph Achievements {
+    graph [rankdir=TB, splines=ortho];
+    node [shape=box, style="rounded,filled", fontsize=12];
+
+    Autoware [label="Autoware Project\n2022-2025", fillcolor=lightblue, shape=box3d, fontsize=14, fontweight=bold];
+
+    Contributors [label="1,085 Contributors", fillcolor=lightgreen];
+    Stars [label="10,499 GitHub Stars", fillcolor=gold];
+    Diversity [label="88% External\nContributors", fillcolor=lightpink];
+    Growth [label="20%+ Annual\nGrowth", fillcolor=lightyellow];
+
+    Autoware -> Contributors [label="Growth"];
+    Autoware -> Stars [label="Recognition"];
+    Autoware -> Diversity [label="Community"];
+    Autoware -> Growth [label="Momentum"];
+}
+```
+
 1. **Global Community Formation**: 88% external contributors demonstrate high diversity
 2. **Sustained Growth**: Stable 20%+ annual contributor growth
 3. **Balanced Contributions**: Healthy balance between code and community contributions
-4. **From Corporate-Led to Collaborative**: Strategic leadership by Tier4 merged with external contributions
+4. **From Corporate-Led to Collaborative**: Strategic leadership by TIER IV merged with external contributions
 
 ### Future Outlook (Projection)
 
@@ -336,7 +455,7 @@ Global Reach            ██████████████████�
 Projected Growth (2025-2026)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Current (Oct 2025)   1,087 contributors  ████████████████████████████████
+Current (Oct 2025)   1,085 contributors  ████████████████████████████████
 Q1 2026 (Est.)       1,150 contributors  ██████████████████████████████████
 Q2 2026 (Est.)       1,250 contributors  ████████████████████████████████████
 Q3 2026 (Est.)       1,350 contributors  ██████████████████████████████████████
@@ -352,7 +471,7 @@ Maintaining current growth trends, Autoware is projected to achieve **over 1,500
 ## 📚 Data Sources
 
 - **Analyzed Repositories**:
-  - autoware, autoware.universe, autoware.core, autoware_common, autoware_msgs, autoware_launch, autoware-documentation
+  - autoware, autoware_universe, autoware_core, autoware_msgs, autoware_launch, autoware-documentation
   - Autoware.AI related repositories (legacy)
 - **Data Collection Method**: GitHub GraphQL API
 - **Data Collection Date**: October 28, 2025

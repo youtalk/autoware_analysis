@@ -1,0 +1,17 @@
+# Requirements for Autoware Analysis Project
+# Python 3.9+
+
+# No external dependencies required - uses only Python standard library
+# The following are recommended for development and testing:
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Code quality
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
+
+# Development utilities
+ipython>=8.0.0

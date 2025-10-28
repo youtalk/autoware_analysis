@@ -1,319 +1,254 @@
-import json
-from collections import OrderedDict
-import pprint
-import subprocess
+"""
+Fetch contributor data from GitHub GraphQL API for Autoware repositories.
+
+This script queries GitHub's GraphQL API for issues, pull requests, and discussions
+across multiple Autoware repositories. It handles pagination and saves the results
+as JSON files for later processing.
+"""
+
+from dataclasses import dataclass
+from typing import List, Optional
+import logging
+
+from utils import (
+    run_bash_script,
+    write_json_file,
+    ensure_directories_exist,
+    GENERATED_JSON_DIR,
+    logger,
+    SubprocessError,
+    DataProcessingError,
+)
 
 
-def getFirstCursor(script, contributor_type, repository):
-    res = subprocess.run(["bash", script, repository])
-    f = open("tmp.txt", "r")
-    loaded_json = json.load(f)
-    if len(loaded_json["data"]["repository"][contributor_type]["edges"]) == 0:
-        return None
-    return loaded_json["data"]["repository"][contributor_type]["edges"][0]["cursor"]
+@dataclass
+class RepositoryConfig:
+    """Configuration for a repository and its contribution types."""
+    name: str
+    fetch_discussions: bool = False
+    fetch_issues: bool = True
+    fetch_prs: bool = True
 
-def getContributors(script, cursor_script, contributor_type, respository):
-    all_edges=[]
 
-    first_cursor=getFirstCursor(cursor_script, contributor_type, repository)
-    if first_cursor == None:
-        return all_edges
+# Repository configurations
+REPOSITORIES = [
+    RepositoryConfig("autoware", fetch_discussions=True, fetch_issues=True, fetch_prs=True),
+    RepositoryConfig("autoware.universe", fetch_issues=True, fetch_prs=True),
+    RepositoryConfig("autoware.core", fetch_issues=True, fetch_prs=True),
+    RepositoryConfig("autoware_msgs", fetch_issues=True, fetch_prs=True),
+    RepositoryConfig("autoware_launch", fetch_issues=True, fetch_prs=True),
+    RepositoryConfig("autoware-documentation", fetch_issues=True, fetch_prs=True),
+    RepositoryConfig("autoware_ai", fetch_issues=True, fetch_prs=False),
+    RepositoryConfig("autoware_ai_perception", fetch_issues=True, fetch_prs=True),
+    RepositoryConfig("autoware_ai_planning", fetch_issues=True, fetch_prs=True),
+    RepositoryConfig("autoware_ai_messages", fetch_issues=True, fetch_prs=True),
+    RepositoryConfig("autoware_ai_simulation", fetch_issues=True, fetch_prs=True),
+    RepositoryConfig("autoware_ai_visualization", fetch_issues=True, fetch_prs=True),
+    RepositoryConfig("autoware_ai_drivers", fetch_issues=True, fetch_prs=True),
+    RepositoryConfig("autoware_ai_utilities", fetch_issues=True, fetch_prs=True),
+    RepositoryConfig("autoware_ai_common", fetch_issues=True, fetch_prs=True),
+]
 
-    print(contributor_type, repository)
-    cursor=first_cursor
-    res = subprocess.run(["bash", script, cursor, repository])
-    f = open("tmp.txt", "r")
 
-    loaded_json = json.load(f)
+# Script mappings for different contribution types
+CONTRIBUTION_TYPE_SCRIPTS = {
+    "discussions": {
+        "cursor_script": "get_first_discussion.sh",
+        "query_script": "query_discussions.sh",
+        "api_field": "discussions",
+    },
+    "issues": {
+        "cursor_script": "get_first_issue.sh",
+        "query_script": "query_issues.sh",
+        "api_field": "issues",
+    },
+    "pullRequests": {
+        "cursor_script": "get_first_pr.sh",
+        "query_script": "query_prs.sh",
+        "api_field": "pullRequests",
+    },
+}
 
-    edges = loaded_json["data"]["repository"][contributor_type]["edges"]
 
-    while len(edges) > 0:
-        all_edges += edges
-        print(len(edges))
+def get_first_cursor(
+    cursor_script: str,
+    api_field: str,
+    repository: str
+) -> Optional[str]:
+    """
+    Get the first cursor for pagination from the API.
 
-        cursor=edges[-1]["cursor"]
-        res = subprocess.run(["bash", script, cursor, repository])
-        f = open("tmp.txt", "r")
-        loaded_json = json.load(f)
-        edges = loaded_json["data"]["repository"][contributor_type]["edges"]
+    Args:
+        cursor_script: Bash script to get the first cursor
+        api_field: API field name (discussions, issues, or pullRequests)
+        repository: Repository name
 
+    Returns:
+        First cursor string, or None if no data exists
+
+    Raises:
+        SubprocessError: If script execution fails
+        DataProcessingError: If data extraction fails
+    """
+    try:
+        loaded_json = run_bash_script(cursor_script, repository)
+
+        edges = loaded_json.get("data", {}).get("repository", {}).get(api_field, {}).get("edges", [])
+
+        if not edges:
+            logger.info(f"No {api_field} found for repository {repository}")
+            return None
+
+        return edges[0].get("cursor")
+
+    except (SubprocessError, DataProcessingError) as e:
+        logger.error(f"Failed to get first cursor for {repository} {api_field}: {e}")
+        raise
+
+
+def fetch_all_edges(
+    query_script: str,
+    cursor_script: str,
+    api_field: str,
+    repository: str
+) -> List[dict]:
+    """
+    Fetch all edges for a given contribution type and repository.
+
+    This function handles pagination by repeatedly calling the API until
+    all data has been retrieved.
+
+    Args:
+        query_script: Bash script to query data with cursor
+        cursor_script: Bash script to get initial cursor
+        api_field: API field name (discussions, issues, or pullRequests)
+        repository: Repository name
+
+    Returns:
+        List of all edges from the API
+
+    Raises:
+        SubprocessError: If script execution fails
+        DataProcessingError: If data extraction fails
+    """
+    logger.info(f"Fetching {api_field} for {repository}")
+
+    # Get first cursor
+    cursor = get_first_cursor(cursor_script, api_field, repository)
+    if cursor is None:
+        return []
+
+    all_edges = []
+
+    # Paginate through all results
+    while True:
+        try:
+            loaded_json = run_bash_script(query_script, cursor, repository)
+            edges = loaded_json.get("data", {}).get("repository", {}).get(api_field, {}).get("edges", [])
+
+            if not edges:
+                break
+
+            all_edges.extend(edges)
+            logger.info(f"Fetched {len(edges)} edges (total: {len(all_edges)})")
+
+            # Get next cursor
+            cursor = edges[-1].get("cursor")
+            if not cursor:
+                break
+
+        except (SubprocessError, DataProcessingError) as e:
+            logger.error(f"Error during pagination for {repository} {api_field}: {e}")
+            raise
+
+    logger.info(f"Completed fetching {len(all_edges)} total edges for {repository} {api_field}")
     return all_edges
 
-def dumpJson(json_dict, file_name):
-    with open("generated_json/" +file_name, 'w') as fp:
-        json.dump(json_dict, fp, indent=2)
 
-contributors = []
+def fetch_repository_data(repo_config: RepositoryConfig) -> None:
+    """
+    Fetch all configured contribution types for a repository.
 
-## autoware
+    Args:
+        repo_config: Repository configuration specifying what to fetch
 
-autoware_discussions = []
-cursor_script="get_first_discussion.sh"
-script="query_discussions.sh"
-contributor_type="discussions"
-repository="autoware"
-autoware_discussions += getContributors(script, cursor_script, contributor_type, repository)
-contributors += autoware_discussions
-dumpJson(autoware_discussions, "autoware_discussions.json")
+    Raises:
+        SubprocessError: If script execution fails
+        DataProcessingError: If data extraction fails
+    """
+    repo_name = repo_config.name
+    logger.info(f"Processing repository: {repo_name}")
 
-autoware_issues = []
-cursor_script="get_first_issue.sh"
-script="query_issues.sh"
-contributor_type="issues"
-repository="autoware"
-autoware_issues += getContributors(script, cursor_script, contributor_type, repository)
-contributors += autoware_issues
-dumpJson(autoware_issues, "autoware_issues.json")
+    # Fetch discussions if configured
+    if repo_config.fetch_discussions:
+        try:
+            scripts = CONTRIBUTION_TYPE_SCRIPTS["discussions"]
+            edges = fetch_all_edges(
+                scripts["query_script"],
+                scripts["cursor_script"],
+                scripts["api_field"],
+                repo_name
+            )
+            output_file = GENERATED_JSON_DIR / f"{repo_name.replace('-', '_').replace('.', '_')}_discussions.json"
+            write_json_file(edges, output_file)
+        except Exception as e:
+            logger.error(f"Failed to fetch discussions for {repo_name}: {e}")
+            raise
 
-autoware_prs = []
-cursor_script="get_first_pr.sh"
-script="query_prs.sh"
-contributor_type="pullRequests"
-repository="autoware"
-autoware_prs += getContributors(script, cursor_script, contributor_type, repository)
-contributors += autoware_prs
-dumpJson(autoware_prs, "autoware_prs.json")
+    # Fetch issues if configured
+    if repo_config.fetch_issues:
+        try:
+            scripts = CONTRIBUTION_TYPE_SCRIPTS["issues"]
+            edges = fetch_all_edges(
+                scripts["query_script"],
+                scripts["cursor_script"],
+                scripts["api_field"],
+                repo_name
+            )
+            output_file = GENERATED_JSON_DIR / f"{repo_name.replace('-', '_').replace('.', '_')}_issues.json"
+            write_json_file(edges, output_file)
+        except Exception as e:
+            logger.error(f"Failed to fetch issues for {repo_name}: {e}")
+            raise
 
-## autoware_universe
+    # Fetch pull requests if configured
+    if repo_config.fetch_prs:
+        try:
+            scripts = CONTRIBUTION_TYPE_SCRIPTS["pullRequests"]
+            edges = fetch_all_edges(
+                scripts["query_script"],
+                scripts["cursor_script"],
+                scripts["api_field"],
+                repo_name
+            )
+            output_file = GENERATED_JSON_DIR / f"{repo_name.replace('-', '_').replace('.', '_')}_prs.json"
+            write_json_file(edges, output_file)
+        except Exception as e:
+            logger.error(f"Failed to fetch pull requests for {repo_name}: {e}")
+            raise
 
-universe_issues = []
-cursor_script="get_first_issue.sh"
-script="query_issues.sh"
-contributor_type="issues"
-repository="autoware_universe"
-universe_issues += getContributors(script, cursor_script, contributor_type, repository)
-contributors += universe_issues
-dumpJson(universe_issues, "universe_issues.json")
 
-universe_prs = []
-cursor_script="get_first_pr.sh"
-script="query_prs.sh"
-contributor_type="pullRequests"
-repository="autoware_universe"
-universe_prs += getContributors(script, cursor_script, contributor_type, repository)
-contributors += universe_prs
-dumpJson(universe_prs, "universe_prs.json")
+def main() -> None:
+    """Main execution function."""
+    try:
+        # Ensure output directory exists
+        ensure_directories_exist()
 
-## autoware_core
-autoware_core_issues = []
-cursor_script="get_first_issue.sh"
-script="query_issues.sh"
-contributor_type="issues"
-repository="autoware_core"
-autoware_core_issues += getContributors(script, cursor_script, contributor_type, repository)
-contributors += autoware_core_issues
-dumpJson(autoware_core_issues, "autoware_core_issues.json")
+        # Process each repository
+        for repo_config in REPOSITORIES:
+            try:
+                fetch_repository_data(repo_config)
+            except Exception as e:
+                logger.error(f"Failed to process repository {repo_config.name}: {e}")
+                # Continue with next repository instead of failing completely
+                continue
 
-autoware_core_prs = []
-cursor_script="get_first_pr.sh"
-script="query_prs.sh"
-contributor_type="pullRequests"
-repository="autoware_core"
-autoware_core_prs += getContributors(script, cursor_script, contributor_type, repository)
-contributors += autoware_core_prs
-dumpJson(autoware_core_prs, "autoware_core_prs.json")
+        logger.info("Successfully completed fetching data from all repositories")
 
-## autoware_msgs
-autoware_msgs_issues = []
-cursor_script="get_first_issue.sh"
-script="query_issues.sh"
-contributor_type="issues"
-repository="autoware_msgs"
-autoware_msgs_issues += getContributors(script, cursor_script, contributor_type, repository)
-contributors += autoware_msgs_issues
-dumpJson(autoware_msgs_issues, "autoware_msgs_issues.json")
+    except Exception as e:
+        logger.error(f"Fatal error in main execution: {e}")
+        raise
 
-autoware_msgs_prs = []
-cursor_script="get_first_pr.sh"
-script="query_prs.sh"
-contributor_type="pullRequests"
-repository="autoware_msgs"
-autoware_msgs_prs += getContributors(script, cursor_script, contributor_type, repository)
-contributors += autoware_msgs_prs
-dumpJson(autoware_msgs_prs, "autoware_msgs_prs.json")
 
-## autoware_launch
-autoware_launch_issues = []
-cursor_script="get_first_issue.sh"
-script="query_issues.sh"
-contributor_type="issues"
-repository="autoware_launch"
-autoware_launch_issues += getContributors(script, cursor_script, contributor_type, repository)
-contributors += autoware_launch_issues
-dumpJson(autoware_launch_issues, "autoware_launch_issues.json")
-
-autoware_launch_prs = []
-cursor_script="get_first_pr.sh"
-script="query_prs.sh"
-contributor_type="pullRequests"
-repository="autoware_launch"
-autoware_launch_prs += getContributors(script, cursor_script, contributor_type, repository)
-contributors += autoware_launch_prs
-dumpJson(autoware_launch_prs, "autoware_launch_prs.json")
-
-## autoware_documentation
-autoware_documentation_issues = []
-cursor_script="get_first_issue.sh"
-script="query_issues.sh"
-contributor_type="issues"
-repository="autoware-documentation"
-autoware_documentation_issues += getContributors(script, cursor_script, contributor_type, repository)
-contributors += autoware_documentation_issues
-dumpJson(autoware_documentation_issues, "autoware_documentation_issues.json")
-
-autoware_documentation_prs = []
-cursor_script="get_first_pr.sh"
-script="query_prs.sh"
-contributor_type="pullRequests"
-repository="autoware-documentation"
-autoware_documentation_prs += getContributors(script, cursor_script, contributor_type, repository)
-contributors += autoware_documentation_prs
-dumpJson(autoware_documentation_prs, "autoware_documentation_prs.json")
-
-## autoware_ai
-
-autoware_ai_issues = []
-cursor_script="get_first_issue.sh"
-script="query_issues.sh"
-contributor_type="issues"
-repository="autoware_ai"
-autoware_ai_issues += getContributors(script, cursor_script, contributor_type, repository)
-dumpJson(autoware_ai_issues, "autoware_ai_issues.json")
-
-## autoware_ai_perception
-autoware_ai_perception_issues = []
-cursor_script="get_first_issue.sh"
-script="query_issues.sh"
-contributor_type="issues"
-repository="autoware_ai_perception"
-autoware_ai_perception_issues += getContributors(script, cursor_script, contributor_type, repository)
-dumpJson(autoware_ai_perception_issues, "autoware_ai_perception_issues.json")
-
-autoware_ai_perception_prs = []
-cursor_script="get_first_pr.sh"
-script="query_prs.sh"
-contributor_type="pullRequests"
-repository="autoware_ai_perception"
-autoware_ai_perception_prs += getContributors(script, cursor_script, contributor_type, repository)
-dumpJson(autoware_ai_perception_prs, "autoware_ai_perception_prs.json")
-
-## autoware_ai_planning
-autoware_ai_planning_issues = []
-cursor_script="get_first_issue.sh"
-script="query_issues.sh"
-contributor_type="issues"
-repository="autoware_ai_planning"
-autoware_ai_planning_issues += getContributors(script, cursor_script, contributor_type, repository)
-dumpJson(autoware_ai_planning_issues, "autoware_ai_planning_issues.json")
-
-autoware_ai_planning_prs = []
-cursor_script="get_first_pr.sh"
-script="query_prs.sh"
-contributor_type="pullRequests"
-repository="autoware_ai_planning"
-autoware_ai_planning_prs += getContributors(script, cursor_script, contributor_type, repository)
-dumpJson(autoware_ai_planning_prs, "autoware_ai_planning_prs.json")
-
-## autoware_ai_messages
-autoware_ai_messages_issues = []
-cursor_script="get_first_issue.sh"
-script="query_issues.sh"
-contributor_type="issues"
-repository="autoware_ai_messages"
-autoware_ai_messages_issues += getContributors(script, cursor_script, contributor_type, repository)
-dumpJson(autoware_ai_messages_issues, "autoware_ai_messages_issues.json")
-
-autoware_ai_messages_prs = []
-cursor_script="get_first_pr.sh"
-script="query_prs.sh"
-contributor_type="pullRequests"
-repository="autoware_ai_messages"
-autoware_ai_messages_prs += getContributors(script, cursor_script, contributor_type, repository)
-dumpJson(autoware_ai_messages_prs, "autoware_ai_messages_prs.json")
-
-## autoware_ai_simulation
-autoware_ai_simulation_issues = []
-cursor_script="get_first_issue.sh"
-script="query_issues.sh"
-contributor_type="issues"
-repository="autoware_ai_simulation"
-autoware_ai_simulation_issues += getContributors(script, cursor_script, contributor_type, repository)
-dumpJson(autoware_ai_simulation_issues, "autoware_ai_simulation_issues.json")
-
-autoware_ai_simulation_prs = []
-cursor_script="get_first_pr.sh"
-script="query_prs.sh"
-contributor_type="pullRequests"
-repository="autoware_ai_simulation"
-autoware_ai_simulation_prs += getContributors(script, cursor_script, contributor_type, repository)
-dumpJson(autoware_ai_simulation_prs, "autoware_ai_simulation_prs.json")
-
-## autoware_ai_visualization
-autoware_ai_visualization_issues = []
-cursor_script="get_first_issue.sh"
-script="query_issues.sh"
-contributor_type="issues"
-repository="autoware_ai_visualization"
-autoware_ai_visualization_issues += getContributors(script, cursor_script, contributor_type, repository)
-dumpJson(autoware_ai_visualization_issues, "autoware_ai_visualization_issues.json")
-
-autoware_ai_visualization_prs = []
-cursor_script="get_first_pr.sh"
-script="query_prs.sh"
-contributor_type="pullRequests"
-repository="autoware_ai_visualization"
-autoware_ai_visualization_prs += getContributors(script, cursor_script, contributor_type, repository)
-dumpJson(autoware_ai_visualization_prs, "autoware_ai_visualization_prs.json")
-
-## autoware_ai_drivers
-autoware_ai_drivers_issues = []
-cursor_script="get_first_issue.sh"
-script="query_issues.sh"
-contributor_type="issues"
-repository="autoware_ai_drivers"
-autoware_ai_drivers_issues += getContributors(script, cursor_script, contributor_type, repository)
-dumpJson(autoware_ai_drivers_issues, "autoware_ai_drivers_issues.json")
-
-autoware_ai_drivers_prs = []
-cursor_script="get_first_pr.sh"
-script="query_prs.sh"
-contributor_type="pullRequests"
-repository="autoware_ai_drivers"
-autoware_ai_drivers_prs += getContributors(script, cursor_script, contributor_type, repository)
-dumpJson(autoware_ai_drivers_prs, "autoware_ai_drivers_prs.json")
-
-## autoware_ai_utilities
-autoware_ai_utilities_issues = []
-cursor_script="get_first_issue.sh"
-script="query_issues.sh"
-contributor_type="issues"
-repository="autoware_ai_utilities"
-autoware_ai_utilities_issues += getContributors(script, cursor_script, contributor_type, repository)
-dumpJson(autoware_ai_utilities_issues, "autoware_ai_utilities_issues.json")
-
-autoware_ai_utilities_prs = []
-cursor_script="get_first_pr.sh"
-script="query_prs.sh"
-contributor_type="pullRequests"
-repository="autoware_ai_utilities"
-autoware_ai_utilities_prs += getContributors(script, cursor_script, contributor_type, repository)
-dumpJson(autoware_ai_utilities_prs, "autoware_ai_utilities_prs.json")
-
-## autoware_ai_common
-autoware_ai_common_issues = []
-cursor_script="get_first_issue.sh"
-script="query_issues.sh"
-contributor_type="issues"
-repository="autoware_ai_common"
-autoware_ai_common_issues += getContributors(script, cursor_script, contributor_type, repository)
-dumpJson(autoware_ai_common_issues, "autoware_ai_common_issues.json")
-
-autoware_ai_common_prs = []
-cursor_script="get_first_pr.sh"
-script="query_prs.sh"
-contributor_type="pullRequests"
-repository="autoware_ai_common"
-autoware_ai_common_prs += getContributors(script, cursor_script, contributor_type, repository)
-dumpJson(autoware_ai_common_prs, "autoware_ai_common_prs.json")
-
+if __name__ == "__main__":
+    main()

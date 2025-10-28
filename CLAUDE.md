@@ -41,7 +41,8 @@ python3 get_tier4_engineers.py
 # 5. Count contributors excluding Tier4 engineers
 python3 remove_tier4_engineers.py
 
-# 6. Fetch stargazer data
+# 6. Fetch stargazer data from ALL repositories (deduplicated by user)
+#    Note: This takes a long time as it fetches from 6 repositories
 python3 get_stars.py
 
 # 7. Format stargazer data into CSV
@@ -82,8 +83,13 @@ The system follows a multi-stage pipeline:
    - Counts how many contributors are Tier4 employees vs external
 
 5. **Stargazer Analysis** (`get_stars.py`, `reformat_stargazers.py`):
-   - Fetches repository star data with timestamps
-   - Converts to daily star count CSV
+   - Fetches star data from ALL Autoware repositories:
+     - autoware, autoware_universe, autoware_core
+     - autoware_msgs, autoware_launch, autoware-documentation
+   - Deduplicates by user (each user counted once, using earliest star date)
+   - Saves individual repository data: `stars/stargazers_<repo>.json`
+   - Saves deduplicated data: `stars/stargazers.json`
+   - Converts to daily star count CSV with unique user counts
 
 ### Repository Coverage
 

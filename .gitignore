@@ -70,3 +70,19 @@ dmypy.json
 
 # Pytype static type analyzer
 .pytype/
+
+# Project-specific generated files
+generated_json/
+contributor_names/
+contributor_history/
+tier4_engineers/
+stars/
+tmp.txt
+
+# Keep only the final unique stargazers file, exclude per-repo files
+!stars/stargazers.json
+!stars/counted_stars.csv
+stars/stargazers_*.json
+
+# Graphviz temporary files
+graphs/*.dot

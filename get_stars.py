@@ -2,15 +2,18 @@
 Fetch stargazer data from GitHub repositories.
 
 This script queries GitHub's GraphQL API to retrieve stargazer information
-including when each star was added.
+including when each star was added. It fetches stars from all Autoware
+repositories and deduplicates by user to count unique stargazers.
 """
 
-from typing import List, Optional, Tuple
+from typing import List, Optional, Tuple, Dict
+from datetime import datetime
 
 from utils import (
     run_bash_script,
     write_json_file,
     ensure_directories_exist,
+    parse_datetime,
     STARS_DIR,
     logger,
     SubprocessError,
@@ -114,6 +117,60 @@ def fetch_all_stargazers(
     return all_edges
 
 
+def deduplicate_stargazers(all_stargazers: Dict[str, List[dict]]) -> List[dict]:
+    """
+    Deduplicate stargazers across repositories by user.
+
+    For each unique user, keeps only their earliest star timestamp
+    across all repositories.
+
+    Args:
+        all_stargazers: Dictionary mapping repository names to lists of stargazer edges
+
+    Returns:
+        List of unique stargazer edges with earliest timestamp per user
+
+    Raises:
+        DataProcessingError: If data processing fails
+    """
+    try:
+        # Dictionary to track earliest star per user
+        # Key: user login, Value: (starredAt datetime, edge dict)
+        unique_users: Dict[str, Tuple[datetime, dict]] = {}
+
+        for repo_name, edges in all_stargazers.items():
+            logger.info(f"Processing {len(edges)} stargazers from {repo_name}")
+
+            for edge in edges:
+                node = edge.get("node", {})
+                login = node.get("login")
+                starred_at_str = edge.get("starredAt")
+
+                if not login or not starred_at_str:
+                    logger.warning(f"Stargazer edge missing login or starredAt in {repo_name}")
+                    continue
+
+                try:
+                    starred_at = parse_datetime(starred_at_str)
+
+                    # If user not seen before, or this star is earlier, update
+                    if login not in unique_users or starred_at < unique_users[login][0]:
+                        unique_users[login] = (starred_at, edge)
+
+                except DataProcessingError:
+                    logger.warning(f"Failed to parse starredAt for user {login}: {starred_at_str}")
+                    continue
+
+        # Extract just the edges (without datetime)
+        unique_edges = [edge for _, edge in unique_users.values()]
+
+        logger.info(f"Found {len(unique_edges)} unique stargazers across all repositories")
+        return unique_edges
+
+    except Exception as e:
+        raise DataProcessingError(f"Failed to deduplicate stargazers: {e}")
+
+
 def main() -> None:
     """Main execution function."""
     try:
@@ -123,16 +180,58 @@ def main() -> None:
         # Configuration
         cursor_script = "get_first_star.sh"
         query_script = "query_stars.sh"
-        repository = "autoware"
 
-        # Fetch stargazers
-        stargazers = fetch_all_stargazers(query_script, cursor_script, repository)
+        # List of repositories to fetch stars from
+        repositories = [
+            "autoware",
+            "autoware_universe",
+            "autoware_core",
+            "autoware_msgs",
+            "autoware_launch",
+            "autoware-documentation",
+        ]
 
-        # Write results to file
+        # Fetch stargazers from all repositories
+        all_stargazers: Dict[str, List[dict]] = {}
+
+        for repository in repositories:
+            logger.info(f"\n{'='*60}")
+            logger.info(f"Fetching stargazers for {repository}")
+            logger.info(f"{'='*60}")
+
+            try:
+                stargazers = fetch_all_stargazers(query_script, cursor_script, repository)
+                all_stargazers[repository] = stargazers
+
+                # Write individual repository results
+                output_file = STARS_DIR / f"stargazers_{repository}.json"
+                write_json_file(stargazers, output_file)
+                logger.info(f"Saved {len(stargazers)} stargazers for {repository}")
+
+            except Exception as e:
+                logger.error(f"Failed to fetch stargazers for {repository}: {e}")
+                # Continue with other repositories
+                all_stargazers[repository] = []
+
+        # Deduplicate stargazers across all repositories
+        logger.info(f"\n{'='*60}")
+        logger.info("Deduplicating stargazers across all repositories")
+        logger.info(f"{'='*60}")
+
+        unique_stargazers = deduplicate_stargazers(all_stargazers)
+
+        # Write deduplicated results
         output_file = STARS_DIR / "stargazers.json"
-        write_json_file(stargazers, output_file)
+        write_json_file(unique_stargazers, output_file)
 
-        logger.info(f"Successfully fetched {len(stargazers)} stargazers for {repository}")
+        # Summary
+        total_stars = sum(len(edges) for edges in all_stargazers.values())
+        logger.info(f"\n{'='*60}")
+        logger.info(f"Summary:")
+        logger.info(f"  Total stars across all repos: {total_stars}")
+        logger.info(f"  Unique stargazers (users): {len(unique_stargazers)}")
+        logger.info(f"  Deduplication rate: {(1 - len(unique_stargazers)/total_stars)*100:.1f}%")
+        logger.info(f"{'='*60}")
 
     except Exception as e:
         logger.error(f"Fatal error in main execution: {e}")

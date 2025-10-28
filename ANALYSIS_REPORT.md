@@ -208,6 +208,8 @@ autoware_ai_messages     █ 5
 
 ## ⭐ GitHub Stars Trajectory
 
+**Note**: The star count (10,499) represents **unique users** who have starred any Autoware repository. Stars are deduplicated across 6 repositories (autoware, autoware_universe, autoware_core, autoware_msgs, autoware_launch, autoware-documentation) to count each individual once, using their earliest star date. This provides an accurate measure of unique community members engaged with the Autoware ecosystem.
+
 ### Star Growth Timeline
 
 ```

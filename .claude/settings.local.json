@@ -9,7 +9,9 @@
       "Bash(python3 get_stars.py)",
       "Bash(python3 reformat_stargazers.py)",
       "Bash(dot -Tpng:*)",
-      "Bash(dot:*)"
+      "Bash(dot:*)",
+      "Bash(cat:*)",
+      "Bash(awk:*)"
     ],
     "deny": [],
     "ask": []

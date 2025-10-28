@@ -1,5 +1,8 @@
 KeisukeShima
+SilaLiu
 adamkrawczyk
+felixf4xu
 h-ohta
+isamu-takagi
 kenji-miyake
 stale

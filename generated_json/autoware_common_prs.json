@@ -2290,6 +2290,22 @@
               },
               "createdAt": "2023-01-02T22:32:56Z"
             }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2023-04-24T14:36:55Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2023-06-23T15:10:59Z"
+            }
           }
         ]
       }
@@ -2405,6 +2421,14 @@
                 "login": "kenji-miyake"
               },
               "createdAt": "2023-03-27T08:58:05Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "soblin"
+              },
+              "createdAt": "2023-04-03T03:13:06Z"
             }
           }
         ]
@@ -3215,6 +3239,14 @@
               },
               "createdAt": "2023-03-09T05:22:58Z"
             }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2024-03-12T19:47:22Z"
+            }
           }
         ]
       }
@@ -3224,12 +3256,21 @@
     "cursor": "Y3Vyc29yOnYyOpHOTBHRYA==",
     "node": {
       "author": {
-        "login": "TakanoTaiga"
+        "login": "takanotaiga"
       },
       "title": "perf(lanelet2_extension): improve performance of getClosestLanelet",
       "createdAt": "2023-03-15T06:18:20Z",
       "comments": {
-        "edges": []
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-04-03T08:35:39Z"
+            }
+          }
+        ]
       }
     }
   },
@@ -3372,6 +3413,2175 @@
       },
       "title": "chore: sync files",
       "createdAt": "2023-03-30T00:17:32Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOTU6ipw==",
+    "node": {
+      "author": {
+        "login": "awf-autoware-bot"
+      },
+      "title": "chore: sync files",
+      "createdAt": "2023-03-31T00:17:23Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-03-31T00:25:57Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "kenji-miyake"
+              },
+              "createdAt": "2023-03-31T00:30:18Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "kenji-miyake"
+              },
+              "createdAt": "2023-04-03T06:53:19Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOTYluuA==",
+    "node": {
+      "author": {
+        "login": "awf-autoware-bot"
+      },
+      "title": "chore: sync files",
+      "createdAt": "2023-04-04T00:13:09Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOThK8pA==",
+    "node": {
+      "author": {
+        "login": "awf-autoware-bot"
+      },
+      "title": "ci(pre-commit): autoupdate",
+      "createdAt": "2023-04-12T00:12:18Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2024-03-08T00:19:02Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOTkdoRQ==",
+    "node": {
+      "author": {
+        "login": "awf-autoware-bot"
+      },
+      "title": "chore: sync files",
+      "createdAt": "2023-04-14T00:14:58Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOTrGCyA==",
+    "node": {
+      "author": {
+        "login": "kosuke55"
+      },
+      "title": "feat(lanelet2_extension): add no parking area",
+      "createdAt": "2023-04-19T17:06:43Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-05-17T05:29:35Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "kosuke55"
+              },
+              "createdAt": "2023-05-17T05:45:00Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2023-05-24T06:30:28Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "kosuke55"
+              },
+              "createdAt": "2023-05-25T02:23:46Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOTrsm7Q==",
+    "node": {
+      "author": {
+        "login": "kosuke55"
+      },
+      "title": "fix(lanelet2_extension): add exception handling for get closest segment",
+      "createdAt": "2023-04-20T05:22:51Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2023-04-20T06:32:51Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "kosuke55"
+              },
+              "createdAt": "2023-04-20T06:39:06Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "kosuke55"
+              },
+              "createdAt": "2023-04-25T08:32:45Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOTtX5oQ==",
+    "node": {
+      "author": {
+        "login": "tkhmy"
+      },
+      "title": "feat: remove local x local y parser, move it to map_loader",
+      "createdAt": "2023-04-21T07:36:40Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-04-21T07:45:37Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2023-04-21T07:46:30Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "tkhmy"
+              },
+              "createdAt": "2023-04-21T07:56:44Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "tkhmy"
+              },
+              "createdAt": "2023-04-24T09:06:11Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "tkhmy"
+              },
+              "createdAt": "2023-04-26T06:10:10Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOTzDd3Q==",
+    "node": {
+      "author": {
+        "login": "ahmeddesokyebrahim"
+      },
+      "title": "feat: handle invalid lanelet",
+      "createdAt": "2023-04-26T11:25:43Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-05-05T14:53:18Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2023-05-09T05:16:09Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "ahmeddesokyebrahim"
+              },
+              "createdAt": "2023-05-10T11:00:12Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOT6w_0Q==",
+    "node": {
+      "author": {
+        "login": "VRichardJP"
+      },
+      "title": "build: mark autoware_cmake as <buildtool_depend>",
+      "createdAt": "2023-05-03T13:11:58Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-05-03T13:20:35Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOT6xWaA==",
+    "node": {
+      "author": {
+        "login": "VRichardJP"
+      },
+      "title": "build: remove unused `<depend>` in package.xml files",
+      "createdAt": "2023-05-03T13:16:01Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-05-03T13:22:30Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2023-07-10T04:47:51Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOT_1swg==",
+    "node": {
+      "author": {
+        "login": "takayuki5168"
+      },
+      "title": "feat: visualize hatched road markings",
+      "createdAt": "2023-05-08T11:14:14Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-05-08T11:24:36Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOT_2jwQ==",
+    "node": {
+      "author": {
+        "login": "takayuki5168"
+      },
+      "title": "docs(lanelet2_extension): hatched road markings",
+      "createdAt": "2023-05-08T11:27:24Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-05-08T11:36:42Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOUGtKHw==",
+    "node": {
+      "author": {
+        "login": "soblin"
+      },
+      "title": "fix(lanelet2_extension): fixed traffic_light marker id duplication",
+      "createdAt": "2023-05-12T21:11:42Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-05-12T21:20:27Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2023-07-15T07:34:52Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "KYabuuchi"
+              },
+              "createdAt": "2023-09-12T01:16:06Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2023-11-11T06:57:20Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOULMiZg==",
+    "node": {
+      "author": {
+        "login": "TakaHoribe"
+      },
+      "title": "chore(lanelet2_extension): change log level from error to warn for visualization",
+      "createdAt": "2023-05-17T10:47:52Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-05-17T10:59:51Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOUWnQYw==",
+    "node": {
+      "author": {
+        "login": "dependabot"
+      },
+      "title": "chore(deps): bump tj-actions/changed-files from 35 to 36",
+      "createdAt": "2023-05-26T07:58:57Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "dependabot"
+              },
+              "createdAt": "2023-06-26T08:00:29Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOUZjUBw==",
+    "node": {
+      "author": {
+        "login": "wep21"
+      },
+      "title": "build: fix build error with lanelet2 1.2.1",
+      "createdAt": "2023-05-29T11:13:11Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-05-29T11:19:52Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOUb3TrA==",
+    "node": {
+      "author": {
+        "login": "soblin"
+      },
+      "title": "fix(build): additional fix for build error in test",
+      "createdAt": "2023-05-31T03:07:12Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-05-31T03:21:18Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOUe7vlQ==",
+    "node": {
+      "author": {
+        "login": "takayuki5168"
+      },
+      "title": "fix: visualize hatched road markings",
+      "createdAt": "2023-06-01T18:57:41Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "takayuki5168"
+              },
+              "createdAt": "2023-06-01T18:58:58Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOUfVINg==",
+    "node": {
+      "author": {
+        "login": "soblin"
+      },
+      "title": "feat(autoware_cmake): add workaround for lanelet2@1.2.1",
+      "createdAt": "2023-06-02T02:38:05Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-06-02T02:45:17Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOUrjAPA==",
+    "node": {
+      "author": {
+        "login": "satoshi-ota"
+      },
+      "title": "feat(lanelet2_extension): add crosswalk regulatory element",
+      "createdAt": "2023-06-12T02:49:53Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-06-12T02:57:23Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "satoshi-ota"
+              },
+              "createdAt": "2023-06-12T10:08:41Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOUuEkgg==",
+    "node": {
+      "author": {
+        "login": "ahmeddesokyebrahim"
+      },
+      "title": "refactor(no_drivable_lane): updating no_drivable_lane doc link after refactoring updates",
+      "createdAt": "2023-06-13T12:13:44Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-06-13T12:24:18Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "ahmeddesokyebrahim"
+              },
+              "createdAt": "2023-06-13T14:07:38Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "ahmeddesokyebrahim"
+              },
+              "createdAt": "2023-06-19T22:42:48Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOUz4rTQ==",
+    "node": {
+      "author": {
+        "login": "kenji-miyake"
+      },
+      "title": "ci(pre-commit): add check-jsonschema",
+      "createdAt": "2023-06-17T02:57:00Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOU01DwA==",
+    "node": {
+      "author": {
+        "login": "soblin"
+      },
+      "title": "feat(lanelet2_extension_python): add python interface/bindings for autoware map and lanelet2_extension package",
+      "createdAt": "2023-06-19T05:56:52Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-06-19T07:08:04Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2023-08-29T19:25:07Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOU0-ehw==",
+    "node": {
+      "author": {
+        "login": "kminoda"
+      },
+      "title": "feat(lanelet2_extensions): add transverse mercator projector",
+      "createdAt": "2023-06-19T07:59:43Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-07-24T03:07:14Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2023-07-27T07:54:00Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "kminoda"
+              },
+              "createdAt": "2023-07-27T08:15:37Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "kminoda"
+              },
+              "createdAt": "2023-08-01T10:25:03Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOU-NYFQ==",
+    "node": {
+      "author": {
+        "login": "dependabot"
+      },
+      "title": "chore(deps): bump tj-actions/changed-files from 35 to 37",
+      "createdAt": "2023-06-26T08:00:25Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "dependabot"
+              },
+              "createdAt": "2023-08-23T07:38:33Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOU-iJQg==",
+    "node": {
+      "author": {
+        "login": "kosuke55"
+      },
+      "title": "feat(lanelet2_extension): move combineLanelets unnamed namespace",
+      "createdAt": "2023-06-26T11:21:52Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-06-26T11:29:03Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "kosuke55"
+              },
+              "createdAt": "2023-06-26T13:06:26Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOVG8z7g==",
+    "node": {
+      "author": {
+        "login": "awf-autoware-bot"
+      },
+      "title": "chore: sync files of reverse references",
+      "createdAt": "2023-07-02T04:47:38Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOVHN3jA==",
+    "node": {
+      "author": {
+        "login": "kenji-miyake"
+      },
+      "title": "chore: update maintainer",
+      "createdAt": "2023-07-02T19:02:12Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-07-02T19:08:21Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOVHclng==",
+    "node": {
+      "author": {
+        "login": "awf-autoware-bot"
+      },
+      "title": "chore: update CODEOWNERS",
+      "createdAt": "2023-07-03T00:02:32Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOVH25Ow==",
+    "node": {
+      "author": {
+        "login": "shmpwk"
+      },
+      "title": "ci(build-and-test): add free disk space",
+      "createdAt": "2023-07-03T07:30:06Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "shmpwk"
+              },
+              "createdAt": "2023-07-03T09:07:23Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "tkimura4"
+              },
+              "createdAt": "2023-07-03T09:15:02Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "shmpwk"
+              },
+              "createdAt": "2023-07-05T04:26:29Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "shmpwk"
+              },
+              "createdAt": "2023-07-07T01:31:12Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "shmpwk"
+              },
+              "createdAt": "2023-07-07T04:03:00Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOVQb63w==",
+    "node": {
+      "author": {
+        "login": "soblin"
+      },
+      "title": "docs(autoware_common): added intersection_area doc",
+      "createdAt": "2023-07-10T00:25:03Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "soblin"
+              },
+              "createdAt": "2023-07-10T03:08:26Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2023-09-17T14:45:40Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOVQckMQ==",
+    "node": {
+      "author": {
+        "login": "shmpwk"
+      },
+      "title": "ci(build-and-test): fix free disk space error",
+      "createdAt": "2023-07-10T00:44:37Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOWCCt5g==",
+    "node": {
+      "author": {
+        "login": "mehmetdogru"
+      },
+      "title": "refactor(lanelet2_extension): overload getCurrentLanelets with search point",
+      "createdAt": "2023-08-17T07:32:38Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-08-17T07:41:33Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mehmetdogru"
+              },
+              "createdAt": "2023-08-22T08:08:56Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOWJEv7Q==",
+    "node": {
+      "author": {
+        "login": "dependabot"
+      },
+      "title": "chore(deps): bump tj-actions/changed-files from 35 to 38",
+      "createdAt": "2023-08-23T07:38:30Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2023-10-22T10:11:06Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "dependabot"
+              },
+              "createdAt": "2023-11-06T15:11:43Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOWR2hSw==",
+    "node": {
+      "author": {
+        "login": "soblin"
+      },
+      "title": "feat(build)!: add forward declaration header",
+      "createdAt": "2023-08-30T08:40:37Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "soblin"
+              },
+              "createdAt": "2023-08-30T10:56:14Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-08-30T12:36:17Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOWY0rnw==",
+    "node": {
+      "author": {
+        "login": "kminoda"
+      },
+      "title": "fix(lanelet2_extensions): fix transverse mercator",
+      "createdAt": "2023-09-05T09:06:48Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-09-05T09:15:07Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "kminoda"
+              },
+              "createdAt": "2023-09-06T02:54:03Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOWfAvqg==",
+    "node": {
+      "author": {
+        "login": "takayuki5168"
+      },
+      "title": "chore(lanelet2_extension): remove unnecessary print",
+      "createdAt": "2023-09-09T19:02:39Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "takayuki5168"
+              },
+              "createdAt": "2023-09-09T19:03:03Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-09-09T19:09:47Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOWgFLGw==",
+    "node": {
+      "author": {
+        "login": "saka1-s"
+      },
+      "title": "feat(lanelet2_extensions): add query curbstones from vector map",
+      "createdAt": "2023-09-11T10:16:18Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "saka1-s"
+              },
+              "createdAt": "2023-09-11T10:16:44Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2023-09-12T02:14:41Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-09-12T02:16:13Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "saka1-s"
+              },
+              "createdAt": "2023-09-12T06:23:56Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOWhMaLA==",
+    "node": {
+      "author": {
+        "login": "KYabuuchi"
+      },
+      "title": "fix(lanelet2_extensions): fix traffic_light visualization marker id duplication",
+      "createdAt": "2023-09-12T00:29:38Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-09-12T00:37:12Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "KYabuuchi"
+              },
+              "createdAt": "2023-09-12T02:12:21Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOWtTZgw==",
+    "node": {
+      "author": {
+        "login": "satoshi-ota"
+      },
+      "title": "docs(lanelet2_extension): add brief description for crosswalk traffic light",
+      "createdAt": "2023-09-21T00:28:00Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-09-21T00:35:14Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOXT-ImA==",
+    "node": {
+      "author": {
+        "login": "kyoichi-sugahara"
+      },
+      "title": "feat(lanelet2_extention): add getAllFences",
+      "createdAt": "2023-10-19T09:48:17Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-10-19T09:56:06Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOXV2CTg==",
+    "node": {
+      "author": {
+        "login": "soblin"
+      },
+      "title": "fix(visualization): display traffic reg elem id",
+      "createdAt": "2023-10-20T10:13:20Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-10-20T10:19:29Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOXbHV3Q==",
+    "node": {
+      "author": {
+        "login": "satoshi-ota"
+      },
+      "title": "feat(map_loader): show intersection areas",
+      "createdAt": "2023-10-25T00:13:52Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-10-25T00:19:57Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOXnZxhw==",
+    "node": {
+      "author": {
+        "login": "xmfcx"
+      },
+      "title": "ci(update-codeowners-from-packages): update labels",
+      "createdAt": "2023-11-02T18:07:00Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOXpUzww==",
+    "node": {
+      "author": {
+        "login": "awf-autoware-bot"
+      },
+      "title": "chore: sync files",
+      "createdAt": "2023-11-04T00:12:59Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOXrOwIA==",
+    "node": {
+      "author": {
+        "login": "dependabot"
+      },
+      "title": "chore(deps): bump tj-actions/changed-files from 35 to 40",
+      "createdAt": "2023-11-06T15:11:40Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "dependabot"
+              },
+              "createdAt": "2023-12-25T07:54:29Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOX3eTrQ==",
+    "node": {
+      "author": {
+        "login": "awf-autoware-bot"
+      },
+      "title": "chore: sync files",
+      "createdAt": "2023-11-15T00:13:08Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2023-11-15T13:09:24Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOX4Ni0w==",
+    "node": {
+      "author": {
+        "login": "cyn-liu"
+      },
+      "title": "feat(lanelet2_extension): replace autoware_auto_mapping_msg with autoware_map_msg",
+      "createdAt": "2023-11-15T12:18:14Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-11-15T12:23:40Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOX4OV1w==",
+    "node": {
+      "author": {
+        "login": "xmfcx"
+      },
+      "title": "ci(pre-commit-autoupdate): update the labels",
+      "createdAt": "2023-11-15T12:28:00Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOYFhptQ==",
+    "node": {
+      "author": {
+        "login": "rsasaki0109"
+      },
+      "title": "feat(lanelet2_extension): add gnss/swithing area visualization[experiment][new] ",
+      "createdAt": "2023-11-25T02:25:24Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-11-25T02:29:39Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2024-01-24T05:07:35Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOYWMQng==",
+    "node": {
+      "author": {
+        "login": "SakodaShintaro"
+      },
+      "title": "feat(lanelet2_extension): added localization landmark",
+      "createdAt": "2023-12-07T07:46:59Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "SakodaShintaro"
+              },
+              "createdAt": "2023-12-17T23:46:48Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-12-21T01:50:16Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOYhD6dg==",
+    "node": {
+      "author": {
+        "login": "TakaHoribe"
+      },
+      "title": "chore(lanelet2_extension): add namespace arg for lanelet id visualization",
+      "createdAt": "2023-12-15T05:00:35Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-12-15T05:05:24Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOYjx-Ww==",
+    "node": {
+      "author": {
+        "login": "soblin"
+      },
+      "title": "feat(lanelet2_extension_python): add python interface/bindings for autoware map and lanelet2_extension package",
+      "createdAt": "2023-12-18T09:23:47Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-12-18T09:31:09Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2024-01-18T10:44:12Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOYnSKKA==",
+    "node": {
+      "author": {
+        "login": "isamu-takagi"
+      },
+      "title": "refactor(lanelet2_extension): move RegisterRegulatoryElement to cpp file",
+      "createdAt": "2023-12-20T10:18:31Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-12-20T10:23:33Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOYrtIKA==",
+    "node": {
+      "author": {
+        "login": "dependabot"
+      },
+      "title": "chore(deps): bump tj-actions/changed-files from 35 to 41",
+      "createdAt": "2023-12-25T07:54:26Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "dependabot"
+              },
+              "createdAt": "2024-01-18T07:12:08Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOYsnqzA==",
+    "node": {
+      "author": {
+        "login": "ahmeddesokyebrahim"
+      },
+      "title": "fix(log-messages): reduce excessive log messages",
+      "createdAt": "2023-12-26T17:36:07Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2024-01-13T01:31:41Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2024-02-12T12:14:27Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2024-02-12T12:16:19Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOY0YKsA==",
+    "node": {
+      "author": {
+        "login": "satoshi-ota"
+      },
+      "title": "fix(lanelet2_extension): improve traffic regulatory element id visualization",
+      "createdAt": "2024-01-05T01:53:23Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2024-01-05T01:58:01Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2024-01-09T02:59:24Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "satoshi-ota"
+              },
+              "createdAt": "2024-01-09T03:14:06Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "satoshi-ota"
+              },
+              "createdAt": "2024-01-09T04:39:16Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2024-01-09T07:56:38Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "satoshi-ota"
+              },
+              "createdAt": "2024-01-09T07:58:36Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOZGMg0Q==",
+    "node": {
+      "author": {
+        "login": "Motsu-san"
+      },
+      "title": "chore(lanelet2_extension): add maintainer in lanelet2_extension",
+      "createdAt": "2024-01-18T06:10:06Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2024-01-18T06:18:00Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOZGQ7VA==",
+    "node": {
+      "author": {
+        "login": "dependabot"
+      },
+      "title": "chore(deps): bump tj-actions/changed-files from 35 to 42",
+      "createdAt": "2024-01-18T07:12:06Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2024-01-24T09:28:55Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOZGgccA==",
+    "node": {
+      "author": {
+        "login": "awf-autoware-bot"
+      },
+      "title": "chore: update CODEOWNERS",
+      "createdAt": "2024-01-18T10:09:50Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOZHrflg==",
+    "node": {
+      "author": {
+        "login": "awf-autoware-bot"
+      },
+      "title": "chore: update CODEOWNERS",
+      "createdAt": "2024-01-19T00:02:21Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOZQd9sA==",
+    "node": {
+      "author": {
+        "login": "dependabot"
+      },
+      "title": "chore(deps): bump tibdex/github-app-token from 1 to 2",
+      "createdAt": "2024-01-25T07:08:05Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOZR3mYA==",
+    "node": {
+      "author": {
+        "login": "awf-autoware-bot"
+      },
+      "title": "chore: sync files",
+      "createdAt": "2024-01-26T00:13:28Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOZSH1aA==",
+    "node": {
+      "author": {
+        "login": "dependabot"
+      },
+      "title": "chore(deps): bump jlumbroso/free-disk-space from 1.2.0 to 1.3.1",
+      "createdAt": "2024-01-26T07:13:20Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOZXvMjw==",
+    "node": {
+      "author": {
+        "login": "StepTurtle"
+      },
+      "title": "feat(lanelet2_extension): add multi osm parser",
+      "createdAt": "2024-01-30T18:02:46Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2024-02-12T09:52:10Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "StepTurtle"
+              },
+              "createdAt": "2024-03-27T14:51:21Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2024-05-26T22:49:06Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOZajIRQ==",
+    "node": {
+      "author": {
+        "login": "sgk-000"
+      },
+      "title": "feat(lanelet2_extension): add validation feature for autoware map",
+      "createdAt": "2024-02-01T07:30:20Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2024-04-09T22:57:04Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOZczaMw==",
+    "node": {
+      "author": {
+        "login": "dependabot"
+      },
+      "title": "chore(deps): bump codecov/codecov-action from 3 to 4",
+      "createdAt": "2024-02-02T08:04:52Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2024-04-09T22:57:05Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2024-06-14T11:17:21Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOZhndYQ==",
+    "node": {
+      "author": {
+        "login": "sgk-000"
+      },
+      "title": "feat(lanelet2_extension): add regulatory element details checker",
+      "createdAt": "2024-02-06T05:25:33Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2024-04-09T22:57:03Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOZujSGQ==",
+    "node": {
+      "author": {
+        "login": "lexavtanke"
+      },
+      "title": "feat(autoware_utils): add functions to generate and convert uuids",
+      "createdAt": "2024-02-14T21:58:28Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2024-02-14T22:39:35Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "brkay54"
+              },
+              "createdAt": "2024-03-20T13:03:09Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2024-03-20T14:18:56Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOaAoWxw==",
+    "node": {
+      "author": {
+        "login": "esteve"
+      },
+      "title": "build: fix Boost UUID dependency",
+      "createdAt": "2024-02-27T12:38:41Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2024-02-27T12:45:08Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOaIQhhw==",
+    "node": {
+      "author": {
+        "login": "shmpwk"
+      },
+      "title": "fix(lanelet2_extension): invalid access",
+      "createdAt": "2024-03-03T17:11:32Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2024-03-03T17:17:36Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOahAlpA==",
+    "node": {
+      "author": {
+        "login": "f0reachARR"
+      },
+      "title": "fix: boost optional build error on rolling environment",
+      "createdAt": "2024-03-19T09:41:49Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2024-05-18T18:17:42Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHObE1Jrg==",
+    "node": {
+      "author": {
+        "login": "awf-autoware-bot"
+      },
+      "title": "chore: sync files",
+      "createdAt": "2024-04-11T00:14:03Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHObMlzYw==",
+    "node": {
+      "author": {
+        "login": "takayuki5168"
+      },
+      "title": "chore(lanelet2_extension): add a not for the centerline overwriting",
+      "createdAt": "2024-04-16T10:51:57Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "takayuki5168"
+              },
+              "createdAt": "2024-04-16T10:52:31Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOb5kiHg==",
+    "node": {
+      "author": {
+        "login": "maxime-clem"
+      },
+      "title": "perf(lanelet2_extension): use std::unordered_set<>::find instead of std::find",
+      "createdAt": "2024-05-16T01:36:21Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOb-10uw==",
+    "node": {
+      "author": {
+        "login": "soblin"
+      },
+      "title": "feat!(lanelet2_extension): introduce API versioning along with format_version",
+      "createdAt": "2024-05-20T08:10:33Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOcBmCBQ==",
+    "node": {
+      "author": {
+        "login": "takayuki5168"
+      },
+      "title": "feat: overwrite centerline with smooth connection",
+      "createdAt": "2024-05-21T15:43:54Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOcTA4qQ==",
+    "node": {
+      "author": {
+        "login": "yukkysaito"
+      },
+      "title": "feat!: change from autoware_auto_msgs to autoware_msgs",
+      "createdAt": "2024-06-01T07:38:33Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2024-06-04T12:19:12Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOcV11eg==",
+    "node": {
+      "author": {
+        "login": "maxime-clem"
+      },
+      "title": "perf(lanelet2_extension): more efficient getLinkedParkingLot",
+      "createdAt": "2024-06-04T01:52:59Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2024-06-14T11:45:23Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOccZrSA==",
+    "node": {
+      "author": {
+        "login": "xmfcx"
+      },
+      "title": "ci(build-and-test): show disk space in the end",
+      "createdAt": "2024-06-07T09:37:00Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2024-06-07T09:39:30Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOcf8EjQ==",
+    "node": {
+      "author": {
+        "login": "xmfcx"
+      },
+      "title": "ci: overhaul build-and-test derivatives and split clang-tidy",
+      "createdAt": "2024-06-10T15:47:57Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOch62fA==",
+    "node": {
+      "author": {
+        "login": "takayuki5168"
+      },
+      "title": "feat(autoware_utils)!: move tier4_autoware_utils from autoware.universe to autoware_utils",
+      "createdAt": "2024-06-11T14:20:31Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2024-06-11T14:25:42Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOclKrQQ==",
+    "node": {
+      "author": {
+        "login": "takayuki5168"
+      },
+      "title": "feat(lanelet2_extension): overwriteLaneletsCenterline supports \"waypoints\"",
+      "createdAt": "2024-06-13T07:29:56Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOcmEhFw==",
+    "node": {
+      "author": {
+        "login": "takayuki5168"
+      },
+      "title": "[DO NOT MERGE] test unnecessary clang tidy",
+      "createdAt": "2024-06-13T15:23:29Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOcppGbQ==",
+    "node": {
+      "author": {
+        "login": "xmfcx"
+      },
+      "title": "ci(markdownlint.yaml): allow images without alt text",
+      "createdAt": "2024-06-16T09:50:01Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOcqeZiA==",
+    "node": {
+      "author": {
+        "login": "dependabot"
+      },
+      "title": "chore(deps): bump actions/checkout from 3 to 4",
+      "createdAt": "2024-06-17T07:35:16Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOcuv1tA==",
+    "node": {
+      "author": {
+        "login": "dependabot"
+      },
+      "title": "chore(deps): bump tj-actions/changed-files from 42 to 44",
+      "createdAt": "2024-06-19T07:44:26Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOc0M_Zw==",
+    "node": {
+      "author": {
+        "login": "awf-autoware-bot"
+      },
+      "title": "ci(pre-commit): autoupdate",
+      "createdAt": "2024-06-23T00:15:25Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOc1ae8w==",
+    "node": {
+      "author": {
+        "login": "mitsudome-r"
+      },
+      "title": "docs: add notice for archiving the repository",
+      "createdAt": "2024-06-24T09:23:28Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOc3Ps_A==",
+    "node": {
+      "author": {
+        "login": "youtalk"
+      },
+      "title": "[DO NOT MERGE] feat: remove `autoware_cmake`, `autoware_lint_common`, and `autoware_utils`",
+      "createdAt": "2024-06-25T06:50:44Z",
       "comments": {
         "edges": []
       }

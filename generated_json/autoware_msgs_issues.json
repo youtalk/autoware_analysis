@@ -1,6 +1,6 @@
 [
   {
-    "cursor": "Y3Vyc29yOnYyOpHORmy8pw==",
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyMi0wMy0yNlQxNDoyOTowNyswOTowMM5GbLyn",
     "node": {
       "author": {
         "login": "kenji-miyake"
@@ -64,13 +64,29 @@
               },
               "createdAt": "2023-03-24T01:32:03Z"
             }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2023-07-25T17:25:08Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2024-06-25T10:43:47Z"
+            }
           }
         ]
       }
     }
   },
   {
-    "cursor": "Y3Vyc29yOnYyOpHOUPWRqA==",
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyMi0wOS0wMVQxNDoyNjowMCswOTowMM5Q9ZGo",
     "node": {
       "author": {
         "login": "isamu-takagi"
@@ -110,13 +126,21 @@
               },
               "createdAt": "2023-01-14T04:36:20Z"
             }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2023-05-26T12:38:05Z"
+            }
           }
         ]
       }
     }
   },
   {
-    "cursor": "Y3Vyc29yOnYyOpHOUeLGmQ==",
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyMi0wOS0xNVQxMToyNzo1NSswOTowMM5R4saZ",
     "node": {
       "author": {
         "login": "isamu-takagi"
@@ -131,6 +155,178 @@
                 "login": "stale"
               },
               "createdAt": "2022-11-14T05:54:43Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNC0wNi0xMVQyMzo0MToxOSswOTowMM6L3oCo",
+    "node": {
+      "author": {
+        "login": "esteve"
+      },
+      "title": "rolling and main branches are not in sync",
+      "createdAt": "2024-06-11T14:41:19Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "esteve"
+              },
+              "createdAt": "2024-06-11T14:47:15Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "esteve"
+              },
+              "createdAt": "2024-06-11T14:52:39Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "youtalk"
+              },
+              "createdAt": "2024-06-11T21:29:24Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "esteve"
+              },
+              "createdAt": "2024-06-12T09:08:24Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "esteve"
+              },
+              "createdAt": "2024-06-12T09:25:21Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "esteve"
+              },
+              "createdAt": "2024-06-12T09:34:46Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNC0wNy0yM1QyMzowMjowOCswOTowMM6Qjy_u",
+    "node": {
+      "author": {
+        "login": "FranzAlbers"
+      },
+      "title": "Changed memory layout in TrackedObjectKinematics compared to autoware_auto_perception_msgs version",
+      "createdAt": "2024-07-23T14:02:08Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "FranzAlbers"
+              },
+              "createdAt": "2024-07-26T13:32:28Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNC0xMC0zMVQxNToyMDoxMyswOTowMM6chniO",
+    "node": {
+      "author": {
+        "login": "mitsudome-r"
+      },
+      "title": "Port MapProjectorInfo msgs from tier4_autoware_map_msgs",
+      "createdAt": "2024-10-31T06:20:13Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-01-25T04:27:39Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNC0xMi0yMFQxNTowMjo0MCswOTowMM6kCFlG",
+    "node": {
+      "author": {
+        "login": "cyn-liu"
+      },
+      "title": "Port  tier4_debug_msgs to autoware_debug_msgs",
+      "createdAt": "2024-12-20T06:02:40Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "cyn-liu"
+              },
+              "createdAt": "2024-12-20T07:08:42Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNC0xMi0yM1QxNzozNjozMiswOTowMM6kPe7o",
+    "node": {
+      "author": {
+        "login": "cyn-liu"
+      },
+      "title": "Port tier4_planning_msgs to autoware_planning_msgs",
+      "createdAt": "2024-12-23T08:36:32Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-02-21T09:24:12Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wNC0yMlQxNjozMjoyMiswOTowMM6za-hZ",
+    "node": {
+      "author": {
+        "login": "isamu-takagi"
+      },
+      "title": "[Proposal] Define message type update procedure",
+      "createdAt": "2025-04-22T07:32:22Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-06-21T08:14:23Z"
             }
           }
         ]

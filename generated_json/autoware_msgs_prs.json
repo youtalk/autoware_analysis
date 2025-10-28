@@ -1276,6 +1276,22 @@
               },
               "createdAt": "2023-03-27T15:07:35Z"
             }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "Shin-kyoto"
+              },
+              "createdAt": "2023-04-03T11:23:17Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "Shin-kyoto"
+              },
+              "createdAt": "2023-04-12T06:47:34Z"
+            }
           }
         ]
       }
@@ -1310,6 +1326,2892 @@
                 "login": "kosuke55"
               },
               "createdAt": "2023-03-29T05:41:10Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOTa9-lQ==",
+    "node": {
+      "author": {
+        "login": "yukkysaito"
+      },
+      "title": "feat: add id based map loader",
+      "createdAt": "2023-04-05T14:53:36Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOTdYe7Q==",
+    "node": {
+      "author": {
+        "login": "Shin-kyoto"
+      },
+      "title": "feat(autoware_map_msgs): add selected map loading",
+      "createdAt": "2023-04-07T12:49:30Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOTk2Hjw==",
+    "node": {
+      "author": {
+        "login": "isamu-takagi"
+      },
+      "title": "feat: remove set route service",
+      "createdAt": "2023-04-14T08:31:56Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "kosuke55"
+              },
+              "createdAt": "2023-04-14T08:34:28Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOToh3vw==",
+    "node": {
+      "author": {
+        "login": "isamu-takagi"
+      },
+      "title": "feat(autoware_planning_msgs): remove SetPoseWithUuidStamped",
+      "createdAt": "2023-04-18T02:30:48Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOT3mi6w==",
+    "node": {
+      "author": {
+        "login": "VRichardJP"
+      },
+      "title": "build: package.xml dependencies ",
+      "createdAt": "2023-05-01T03:14:19Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "kenji-miyake"
+              },
+              "createdAt": "2023-05-01T05:44:08Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOUFdHAg==",
+    "node": {
+      "author": {
+        "login": "awf-autoware-bot"
+      },
+      "title": "chore: sync files",
+      "createdAt": "2023-05-12T00:12:02Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOUQqo1g==",
+    "node": {
+      "author": {
+        "login": "pre-commit-ci"
+      },
+      "title": "ci(pre-commit): autoupdate",
+      "createdAt": "2023-05-22T17:41:56Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2024-09-06T17:28:19Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2024-12-16T13:58:55Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOUaWhxw==",
+    "node": {
+      "author": {
+        "login": "beginningfan"
+      },
+      "title": "feat(autoware_perception_msgs): add PredictedObjects msgs",
+      "createdAt": "2023-05-30T05:25:57Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "beginningfan"
+              },
+              "createdAt": "2023-07-10T10:09:19Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOUaZKdg==",
+    "node": {
+      "author": {
+        "login": "kminoda"
+      },
+      "title": "feat(autoware_map_msgs): support cylindrical AreaInfo",
+      "createdAt": "2023-05-30T06:16:48Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOUabZYw==",
+    "node": {
+      "author": {
+        "login": "cyn-liu"
+      },
+      "title": "feat(autoware_map_msgs): migrate autoware_auto_mapping_msgs to autowa\u2026",
+      "createdAt": "2023-05-30T06:47:10Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2023-06-12T12:01:55Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "cyn-liu"
+              },
+              "createdAt": "2023-06-13T02:39:05Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2023-06-13T09:03:02Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "cyn-liu"
+              },
+              "createdAt": "2023-06-13T11:03:14Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOUb3q9w==",
+    "node": {
+      "author": {
+        "login": "shulanbushangshu"
+      },
+      "title": "feat(autoware_planning_msgs): migrate autoware_auto_planning_msg to autoware_planning_msg",
+      "createdAt": "2023-05-31T03:18:11Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOU6HYbA==",
+    "node": {
+      "author": {
+        "login": "Mingyu1991"
+      },
+      "title": "feat(autoware_perception_msgs): add UP_LEFT_ARROW and UP_RIGHT_ARROW to traffic_light_element",
+      "createdAt": "2023-06-22T08:43:12Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOU6amXg==",
+    "node": {
+      "author": {
+        "login": "Mingyu1991"
+      },
+      "title": "fix(autoware_perception_msgs): add Header to tlr messages and change TrafficLightElement.msg status",
+      "createdAt": "2023-06-22T12:26:06Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "isamu-takagi"
+              },
+              "createdAt": "2023-06-23T04:01:53Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "yukkysaito"
+              },
+              "createdAt": "2023-06-23T04:50:39Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "miursh"
+              },
+              "createdAt": "2023-06-23T05:00:16Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "isamu-takagi"
+              },
+              "createdAt": "2023-06-23T07:36:51Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOU7aoEQ==",
+    "node": {
+      "author": {
+        "login": "Mingyu1991"
+      },
+      "title": "revert: \"fix(autoware_perception_msgs): add Header to tlr messages and change TrafficLightElement.msg status\"",
+      "createdAt": "2023-06-23T05:04:27Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOVE7gbA==",
+    "node": {
+      "author": {
+        "login": "isamu-takagi"
+      },
+      "title": "feat(autoware_perception_msgs): remove traffic light messages",
+      "createdAt": "2023-06-30T08:03:02Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "Mingyu1991"
+              },
+              "createdAt": "2023-07-03T04:08:36Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "isamu-takagi"
+              },
+              "createdAt": "2023-07-03T07:11:30Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOVW3ZEw==",
+    "node": {
+      "author": {
+        "login": "xmfcx"
+      },
+      "title": "feat(autoware_system_msgs): add version service messages",
+      "createdAt": "2023-07-13T14:40:46Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2023-07-13T17:18:00Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2023-07-14T16:30:08Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2023-09-16T08:31:05Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2024-03-07T10:02:02Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOVr9UUg==",
+    "node": {
+      "author": {
+        "login": "beginningfan"
+      },
+      "title": "fix(autoware_perception_msgs): fix error in PredictedObject.msg",
+      "createdAt": "2023-07-31T01:53:46Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOWYYBTA==",
+    "node": {
+      "author": {
+        "login": "dependabot"
+      },
+      "title": "build(deps): bump actions/checkout from 3 to 4",
+      "createdAt": "2023-09-05T00:47:27Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "dependabot"
+              },
+              "createdAt": "2023-09-05T00:47:29Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2023-11-04T01:37:12Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2024-12-16T13:15:11Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "dependabot"
+              },
+              "createdAt": "2024-12-16T13:15:53Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOX0MxgA==",
+    "node": {
+      "author": {
+        "login": "beginningfan"
+      },
+      "title": "fix(autoware_perception_msgs): fix sequence length to dynamic",
+      "createdAt": "2023-11-13T06:10:20Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOYGQtMg==",
+    "node": {
+      "author": {
+        "login": "shulanbushangshu"
+      },
+      "title": "Add autoware planning msg",
+      "createdAt": "2023-11-27T02:42:57Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOYGRikw==",
+    "node": {
+      "author": {
+        "login": "shulanbushangshu"
+      },
+      "title": "fix: planning_msg",
+      "createdAt": "2023-11-27T03:03:37Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "shulanbushangshu"
+              },
+              "createdAt": "2023-12-01T09:37:29Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "maxime-clem"
+              },
+              "createdAt": "2023-12-02T06:06:19Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOYWDBQg==",
+    "node": {
+      "author": {
+        "login": "isamu-takagi"
+      },
+      "title": "feat(autoware_v2x_msgs): add virtual gate messages",
+      "createdAt": "2023-12-07T05:27:40Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "evshary"
+              },
+              "createdAt": "2024-03-06T07:47:15Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "isamu-takagi"
+              },
+              "createdAt": "2024-03-06T09:14:40Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2024-03-07T06:46:27Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2024-03-08T03:59:39Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "isamu-takagi"
+              },
+              "createdAt": "2024-03-08T10:37:49Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2024-05-08T03:07:31Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2024-07-11T06:14:37Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOYaFuEg==",
+    "node": {
+      "author": {
+        "login": "beginningfan"
+      },
+      "title": "feat(autoware_vehicle_msgs): add autoware_vehicle_msgs",
+      "createdAt": "2023-12-11T02:45:40Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2023-12-25T10:50:29Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "beginningfan"
+              },
+              "createdAt": "2023-12-25T10:56:20Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2023-12-25T11:07:26Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOYaiKMg==",
+    "node": {
+      "author": {
+        "login": "shulanbushangshu"
+      },
+      "title": "fix: add system msg",
+      "createdAt": "2023-12-11T09:35:36Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "isamu-takagi"
+              },
+              "createdAt": "2023-12-12T02:41:49Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2023-12-12T04:07:29Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOYlYS6Q==",
+    "node": {
+      "author": {
+        "login": "beginningfan"
+      },
+      "title": "fix(autoware_vehicle_msgs): add missed vehicle msgs",
+      "createdAt": "2023-12-19T06:47:17Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOZXvpCQ==",
+    "node": {
+      "author": {
+        "login": "StepTurtle"
+      },
+      "title": "feat(autoware_map_msgs): add msg and srv files releated with dynamic lanelet loading",
+      "createdAt": "2024-01-30T18:07:56Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "yukkysaito"
+              },
+              "createdAt": "2024-02-19T10:51:41Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "yukkysaito"
+              },
+              "createdAt": "2024-02-19T11:01:00Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "StepTurtle"
+              },
+              "createdAt": "2024-02-19T16:47:33Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "StepTurtle"
+              },
+              "createdAt": "2024-02-19T16:48:48Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "yukkysaito"
+              },
+              "createdAt": "2024-02-26T04:12:48Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2024-05-04T13:37:56Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "YamatoAndo"
+              },
+              "createdAt": "2024-06-18T06:04:28Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "YamatoAndo"
+              },
+              "createdAt": "2024-06-18T06:08:27Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "StepTurtle"
+              },
+              "createdAt": "2024-06-23T19:13:26Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "YamatoAndo"
+              },
+              "createdAt": "2024-06-24T07:41:18Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2024-07-01T05:45:03Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "yukkysaito"
+              },
+              "createdAt": "2024-07-01T06:00:25Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "YamatoAndo"
+              },
+              "createdAt": "2024-07-02T05:38:56Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "yukkysaito"
+              },
+              "createdAt": "2024-07-03T00:50:05Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "YamatoAndo"
+              },
+              "createdAt": "2024-07-04T05:27:13Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "StepTurtle"
+              },
+              "createdAt": "2024-07-04T13:03:54Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2024-09-27T07:48:21Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "YamatoAndo"
+              },
+              "createdAt": "2024-09-27T08:53:41Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "YamatoAndo"
+              },
+              "createdAt": "2024-09-30T06:49:09Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOZf5_IQ==",
+    "node": {
+      "author": {
+        "login": "isamu-takagi"
+      },
+      "title": "feat(autoware_planning_msgs): add route services",
+      "createdAt": "2024-02-05T08:58:51Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "isamu-takagi"
+              },
+              "createdAt": "2024-02-07T20:51:27Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOZxWNDQ==",
+    "node": {
+      "author": {
+        "login": "brkay54"
+      },
+      "title": "feat(autoware_msgs): add new optional messages package with published time debug message",
+      "createdAt": "2024-02-16T12:41:22Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2024-02-19T07:32:28Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "yukkysaito"
+              },
+              "createdAt": "2024-02-26T06:56:34Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2024-02-26T07:26:39Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "brkay54"
+              },
+              "createdAt": "2024-02-26T09:49:40Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHObA6OQA==",
+    "node": {
+      "author": {
+        "login": "ktro2828"
+      },
+      "title": "refactor(perception): rename `TrafficSignal**` to `TrafficLight**`",
+      "createdAt": "2024-04-08T20:52:40Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2024-06-08T13:29:02Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHObTvP7w==",
+    "node": {
+      "author": {
+        "login": "ahmeddesokyebrahim"
+      },
+      "title": "feat(remaining_dist_eta): add msg definition for mission remaining distance and time",
+      "createdAt": "2024-04-19T23:31:17Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2024-04-24T11:20:55Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOba4lqw==",
+    "node": {
+      "author": {
+        "login": "mitsudome-r"
+      },
+      "title": "feat(autoware_planning_msgs)!: remove PathWithLaneId msgs",
+      "createdAt": "2024-04-25T06:00:19Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2024-06-25T00:46:56Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "esteve"
+              },
+              "createdAt": "2024-06-25T08:53:11Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "youtalk"
+              },
+              "createdAt": "2024-06-25T10:21:58Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2024-06-25T10:33:48Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2024-06-25T10:37:11Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "esteve"
+              },
+              "createdAt": "2024-06-25T10:38:42Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2024-06-25T10:39:21Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOba9_Rg==",
+    "node": {
+      "author": {
+        "login": "yukkysaito"
+      },
+      "title": "feat: update msg definitions",
+      "createdAt": "2024-04-25T07:01:18Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "youtalk"
+              },
+              "createdAt": "2024-05-09T02:42:53Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2024-05-09T02:49:05Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "youtalk"
+              },
+              "createdAt": "2024-05-09T02:59:01Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "youtalk"
+              },
+              "createdAt": "2024-05-09T07:10:56Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2024-05-09T09:20:15Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2024-05-09T09:25:25Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2024-05-09T09:33:31Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "yukkysaito"
+              },
+              "createdAt": "2024-05-09T13:31:32Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHObbMudg==",
+    "node": {
+      "author": {
+        "login": "mitsudome-r"
+      },
+      "title": "feat(autoware_vehicle_msgs)!: remove VehicleControlCommand, VehicleKinematicState, and VehicleOdometry messages",
+      "createdAt": "2024-04-25T09:23:33Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHObbU-2A==",
+    "node": {
+      "author": {
+        "login": "yukkysaito"
+      },
+      "title": "feat!(autoware_vehicle_msgs): remove control mode command msg",
+      "createdAt": "2024-04-25T10:40:17Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHObb2t6g==",
+    "node": {
+      "author": {
+        "login": "mitsudome-r"
+      },
+      "title": "fix(autoware_vehicle_msgs): remove ControlModeCommands.msg in CMakeLists.txt",
+      "createdAt": "2024-04-25T15:12:58Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHObw91xA==",
+    "node": {
+      "author": {
+        "login": "youtalk"
+      },
+      "title": "chore: update `package.xml` and fix `CMakeLists.txt`",
+      "createdAt": "2024-05-10T06:11:34Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "youtalk"
+              },
+              "createdAt": "2024-05-10T06:19:45Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOb8xbpw==",
+    "node": {
+      "author": {
+        "login": "ahmeddesokyebrahim"
+      },
+      "title": "docs(TrajectoryPoint):  add comment for acceleration_mps2 to clarify its usage",
+      "createdAt": "2024-05-17T14:09:25Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "esteve"
+              },
+              "createdAt": "2024-07-02T07:44:59Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOch-l_g==",
+    "node": {
+      "author": {
+        "login": "esteve"
+      },
+      "title": "Rolling",
+      "createdAt": "2024-06-11T14:50:22Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOc5stKA==",
+    "node": {
+      "author": {
+        "login": "simon-eisenmann-driveblocks"
+      },
+      "title": "feat(autoware_planning_msgs): add messages for the mapless_architecture",
+      "createdAt": "2024-06-26T09:17:52Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "simon-eisenmann-driveblocks"
+              },
+              "createdAt": "2024-07-11T06:59:48Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOdG5QGg==",
+    "node": {
+      "author": {
+        "login": "YamatoAndo"
+      },
+      "title": "refactor(autoware_map_msgs): modify pcd metadata msg",
+      "createdAt": "2024-07-04T10:53:24Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2024-07-24T13:05:03Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "youtalk"
+              },
+              "createdAt": "2024-07-25T23:41:43Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2024-07-29T12:54:44Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOdmdGjQ==",
+    "node": {
+      "author": {
+        "login": "mitsudome-r"
+      },
+      "title": "revert: revert \"refactor(autoware_map_msgs): modify pcd metadata msg (#96)\"",
+      "createdAt": "2024-07-25T01:13:19Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOdmjZsg==",
+    "node": {
+      "author": {
+        "login": "mitsudome-r"
+      },
+      "title": "refactor(autoware_map_msgs): modify pcd metadata msg",
+      "createdAt": "2024-07-25T03:03:32Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2024-09-27T07:48:20Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOe0heng==",
+    "node": {
+      "author": {
+        "login": "ZahraBoroujeni"
+      },
+      "title": "feat(autoware_msg): add recipe",
+      "createdAt": "2024-09-12T10:28:33Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2024-09-12T13:24:31Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "ZahraBoroujeni"
+              },
+              "createdAt": "2024-09-13T11:53:56Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2024-11-30T17:15:12Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2024-12-02T07:50:13Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2024-12-02T07:52:45Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "ZahraBoroujeni"
+              },
+              "createdAt": "2024-12-02T07:56:18Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2024-12-02T08:05:39Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOfTuWLQ==",
+    "node": {
+      "author": {
+        "login": "xmfcx"
+      },
+      "title": "chore: release 1.2.0",
+      "createdAt": "2024-10-01T10:22:45Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2024-10-01T10:25:15Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2024-10-01T10:26:30Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "youtalk"
+              },
+              "createdAt": "2024-10-01T10:46:12Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2024-10-01T10:52:54Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOgHvEZQ==",
+    "node": {
+      "author": {
+        "login": "mitsudome-r"
+      },
+      "title": "feat(autoware_map_msgs): add MapProjectorInfo message",
+      "createdAt": "2024-10-31T06:15:34Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOgv5_dw==",
+    "node": {
+      "author": {
+        "login": "mitsudome-r"
+      },
+      "title": "chore: bump version to 1.3.0",
+      "createdAt": "2024-11-25T08:07:06Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2024-11-26T03:57:53Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOhHK-EA==",
+    "node": {
+      "author": {
+        "login": "xmfcx"
+      },
+      "title": "ci(sync-files): utilize sync-file-templates repository",
+      "createdAt": "2024-12-08T16:43:31Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2024-12-08T17:17:42Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOhI8iMw==",
+    "node": {
+      "author": {
+        "login": "StepTurtle"
+      },
+      "title": "feat(autoware_perception_msgs): add instance segmentation msg",
+      "createdAt": "2024-12-09T15:24:34Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2024-12-09T15:24:50Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2024-12-10T09:17:08Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "StepTurtle"
+              },
+              "createdAt": "2024-12-12T09:18:31Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2024-12-12T09:19:12Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOhJ-v0g==",
+    "node": {
+      "author": {
+        "login": "awf-autoware-bot"
+      },
+      "title": "chore: sync files",
+      "createdAt": "2024-12-10T00:18:00Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2024-12-10T00:18:10Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOhNo-Lw==",
+    "node": {
+      "author": {
+        "login": "esteve"
+      },
+      "title": "fix(autoware_msgs): fix links to issues in CHANGELOG.rst files",
+      "createdAt": "2024-12-11T12:26:27Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2024-12-11T12:26:40Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2024-12-11T13:45:32Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOhVuNiw==",
+    "node": {
+      "author": {
+        "login": "xmfcx"
+      },
+      "title": "ci(sync-files): add pre-commit-config",
+      "createdAt": "2024-12-16T13:30:30Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2024-12-16T13:30:42Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOhVvKcg==",
+    "node": {
+      "author": {
+        "login": "dependabot"
+      },
+      "title": "build(deps): bump codecov/codecov-action from 4 to 5",
+      "createdAt": "2024-12-16T13:38:09Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2024-12-16T13:38:21Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOhW0AgQ==",
+    "node": {
+      "author": {
+        "login": "awf-autoware-bot"
+      },
+      "title": "chore: sync files",
+      "createdAt": "2024-12-17T00:17:39Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2024-12-17T00:17:50Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOheBCxQ==",
+    "node": {
+      "author": {
+        "login": "cyn-liu"
+      },
+      "title": "feat(autoware_debug_msgs): move messages from tier4_debug_msgs",
+      "createdAt": "2024-12-20T06:21:12Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2024-12-20T06:21:24Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2024-12-20T07:39:57Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "cyn-liu"
+              },
+              "createdAt": "2024-12-20T08:08:12Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOhjk_qQ==",
+    "node": {
+      "author": {
+        "login": "cyn-liu"
+      },
+      "title": "feat(autoware_planning_msgs): move tier4_planning_msgs to autoware_planning_msgs",
+      "createdAt": "2024-12-26T01:43:43Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2024-12-26T01:43:55Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2025-01-07T15:38:25Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2025-01-07T15:53:19Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2025-01-07T15:56:52Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOhtg35A==",
+    "node": {
+      "author": {
+        "login": "pre-commit-ci"
+      },
+      "title": "ci(pre-commit): quarterly autoupdate",
+      "createdAt": "2025-01-06T17:03:23Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-01-06T17:03:52Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOiSn3mQ==",
+    "node": {
+      "author": {
+        "login": "mitsudome-r"
+      },
+      "title": "feat(autoware_planning_msgs): add VelocityLimit message",
+      "createdAt": "2025-01-28T02:42:33Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-01-28T02:42:46Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOih4WWw==",
+    "node": {
+      "author": {
+        "login": "sebekx"
+      },
+      "title": "feat(MapProjectorInfo.msg): add LocalCartesian const",
+      "createdAt": "2025-02-05T10:19:40Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-02-05T10:19:50Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOjGPdlQ==",
+    "node": {
+      "author": {
+        "login": "xmfcx"
+      },
+      "title": "chore: bump version to 1.4.0",
+      "createdAt": "2025-02-25T04:14:48Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-02-25T04:14:59Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "Timple"
+              },
+              "createdAt": "2025-03-31T08:58:48Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2025-03-31T09:01:39Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2025-03-31T09:37:11Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "Timple"
+              },
+              "createdAt": "2025-03-31T09:50:00Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2025-03-31T10:20:03Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "youtalk"
+              },
+              "createdAt": "2025-03-31T12:57:04Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOjRiCdQ==",
+    "node": {
+      "author": {
+        "login": "knzo25"
+      },
+      "title": "feat(autoware_sensing_msgs): implement the proposed universal radar messages",
+      "createdAt": "2025-03-03T05:13:19Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-03-03T05:13:31Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "knzo25"
+              },
+              "createdAt": "2025-03-03T05:21:09Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2025-03-05T06:29:17Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "knzo25"
+              },
+              "createdAt": "2025-04-02T06:29:29Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "knzo25"
+              },
+              "createdAt": "2025-04-04T00:57:57Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2025-04-04T03:00:22Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "knzo25"
+              },
+              "createdAt": "2025-04-04T04:37:47Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "knzo25"
+              },
+              "createdAt": "2025-04-09T00:58:40Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOkISHeg==",
+    "node": {
+      "author": {
+        "login": "YamatoAndo"
+      },
+      "title": "feat(autoware_msg_msgs): add scale factor remove altitude",
+      "createdAt": "2025-03-28T08:27:12Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-03-28T08:27:23Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "YamatoAndo"
+              },
+              "createdAt": "2025-04-02T09:19:11Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "youtalk"
+              },
+              "createdAt": "2025-04-02T10:39:35Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOkRNIvQ==",
+    "node": {
+      "author": {
+        "login": "youtalk"
+      },
+      "title": "chore: bump up verstion to 1.5.0",
+      "createdAt": "2025-04-02T11:44:46Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-04-02T11:44:58Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOkVctgQ==",
+    "node": {
+      "author": {
+        "login": "youtalk"
+      },
+      "title": "feat(autoware_msgs): create metapackage",
+      "createdAt": "2025-04-04T02:12:11Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-04-04T02:12:22Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "youtalk"
+              },
+              "createdAt": "2025-04-07T01:50:01Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOkZAyrw==",
+    "node": {
+      "author": {
+        "login": "awf-autoware-bot"
+      },
+      "title": "chore: sync files",
+      "createdAt": "2025-04-07T03:50:31Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-04-07T03:50:40Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOkZCETA==",
+    "node": {
+      "author": {
+        "login": "youtalk"
+      },
+      "title": "chore: bump version to 1.6.0",
+      "createdAt": "2025-04-07T04:12:54Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-04-07T04:13:03Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOkao1Nw==",
+    "node": {
+      "author": {
+        "login": "pre-commit-ci"
+      },
+      "title": "ci(pre-commit): quarterly autoupdate",
+      "createdAt": "2025-04-07T16:52:51Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-04-07T16:53:17Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-06-06T17:50:16Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOk0laXA==",
+    "node": {
+      "author": {
+        "login": "xmfcx"
+      },
+      "title": "chore: bump version to 1.7.0",
+      "createdAt": "2025-04-21T11:10:35Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-04-21T11:10:47Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2025-04-21T11:38:00Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "youtalk"
+              },
+              "createdAt": "2025-04-22T00:42:04Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOk1tugw==",
+    "node": {
+      "author": {
+        "login": "youtalk"
+      },
+      "title": "ci(sync-files.yaml): append `update-codeowners-from-packages.yaml`",
+      "createdAt": "2025-04-21T23:58:34Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-04-21T23:58:45Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOk2SWUA==",
+    "node": {
+      "author": {
+        "login": "awf-autoware-bot"
+      },
+      "title": "chore: sync files",
+      "createdAt": "2025-04-22T07:35:33Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-04-22T07:35:43Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOk2Tluw==",
+    "node": {
+      "author": {
+        "login": "awf-autoware-bot"
+      },
+      "title": "chore: update CODEOWNERS",
+      "createdAt": "2025-04-22T07:42:58Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-04-22T07:43:09Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2025-04-23T07:05:31Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOk3Ekig==",
+    "node": {
+      "author": {
+        "login": "xmfcx"
+      },
+      "title": "chore: update maintainers",
+      "createdAt": "2025-04-22T13:39:08Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-04-22T13:39:19Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOk4jBnw==",
+    "node": {
+      "author": {
+        "login": "xmfcx"
+      },
+      "title": "chore: fix email domain",
+      "createdAt": "2025-04-23T06:49:45Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-04-23T06:49:57Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOlX4wCw==",
+    "node": {
+      "author": {
+        "login": "yuasabe"
+      },
+      "title": "feat(autoware_perception_msgs): update traffic light messages to include future states",
+      "createdAt": "2025-05-08T21:01:01Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-05-08T21:01:12Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "MasatoSaeki"
+              },
+              "createdAt": "2025-05-09T14:11:30Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xtk8532704"
+              },
+              "createdAt": "2025-06-03T07:00:17Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOlwh7tA==",
+    "node": {
+      "author": {
+        "login": "yuasabe"
+      },
+      "title": "chore: bump version to 1.8.0",
+      "createdAt": "2025-05-21T10:09:44Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-05-21T10:09:55Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOl_BdFQ==",
+    "node": {
+      "author": {
+        "login": "liuXinGangChina"
+      },
+      "title": "feat(common): add msg service_log to autoware system msgs",
+      "createdAt": "2025-05-28T10:35:57Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-05-28T10:36:06Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2025-05-30T09:37:29Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "liuXinGangChina"
+              },
+              "createdAt": "2025-06-03T03:01:43Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOmMf5Mw==",
+    "node": {
+      "author": {
+        "login": "sasakisasaki"
+      },
+      "title": "feat(workflow): add workflows for version control automation",
+      "createdAt": "2025-06-03T09:20:46Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-06-03T09:20:56Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOmtQoFQ==",
+    "node": {
+      "author": {
+        "login": "mitsudome-r"
+      },
+      "title": "feat(autoware_planning_msgs): add route services",
+      "createdAt": "2025-06-17T05:27:07Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-06-17T05:27:16Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2025-06-18T02:20:34Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOmtaLQA==",
+    "node": {
+      "author": {
+        "login": "mitsudome-r"
+      },
+      "title": "feat(autoware_localization_msgs): add InitializeLocalization service",
+      "createdAt": "2025-06-17T06:54:57Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-06-17T06:55:11Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2025-06-18T02:42:01Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOmuur3g==",
+    "node": {
+      "author": {
+        "login": "mitsudome-r"
+      },
+      "title": "feat(autoware_system_msgs): move services from tier4_system_msgs",
+      "createdAt": "2025-06-17T15:06:18Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-06-17T15:06:29Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2025-06-18T02:20:18Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOmv517g==",
+    "node": {
+      "author": {
+        "login": "mitsudome-r"
+      },
+      "title": "chore: bump version to 1.9.0",
+      "createdAt": "2025-06-18T02:58:11Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-06-18T02:58:20Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2025-06-18T03:30:18Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOmzV_Yw==",
+    "node": {
+      "author": {
+        "login": "amadeuszsz"
+      },
+      "title": "feat(autoware_sensing_msgs): add PointCloud meta info msgs",
+      "createdAt": "2025-06-19T08:01:18Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-06-19T08:01:29Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "amadeuszsz"
+              },
+              "createdAt": "2025-06-23T08:45:40Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2025-06-23T08:54:07Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "vividf"
+              },
+              "createdAt": "2025-06-23T08:57:23Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2025-06-23T08:59:23Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2025-06-23T09:00:38Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "amadeuszsz"
+              },
+              "createdAt": "2025-06-23T09:11:10Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2025-06-23T09:30:22Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2025-06-23T09:51:21Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "yukkysaito"
+              },
+              "createdAt": "2025-06-23T10:16:52Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "amadeuszsz"
+              },
+              "createdAt": "2025-06-24T02:40:55Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "yukkysaito"
+              },
+              "createdAt": "2025-06-24T03:35:48Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "amadeuszsz"
+              },
+              "createdAt": "2025-06-24T04:05:28Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "amadeuszsz"
+              },
+              "createdAt": "2025-06-24T05:22:43Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "drwnz"
+              },
+              "createdAt": "2025-06-25T05:06:38Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2025-07-15T06:22:35Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2025-07-15T06:28:24Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2025-07-15T12:17:52Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2025-07-16T06:46:19Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOm6M-8w==",
+    "node": {
+      "author": {
+        "login": "mitsudome-r"
+      },
+      "title": "chore: update maintainer for autoware_msgs packages",
+      "createdAt": "2025-06-23T10:22:43Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-06-23T10:22:53Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2025-06-24T09:09:31Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOm9IrdA==",
+    "node": {
+      "author": {
+        "login": "awf-autoware-bot"
+      },
+      "title": "chore: update CODEOWNERS",
+      "createdAt": "2025-06-24T09:10:33Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-06-24T09:10:43Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOn4ebCQ==",
+    "node": {
+      "author": {
+        "login": "awf-autoware-bot"
+      },
+      "title": "chore: bump version (1.10.0) and update changelog",
+      "createdAt": "2025-07-18T08:21:37Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-07-18T08:21:47Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOoI49jg==",
+    "node": {
+      "author": {
+        "login": "PanConChicharron"
+      },
+      "title": "feat(route_handler): Forced lane-change",
+      "createdAt": "2025-07-25T02:23:20Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-07-25T02:23:29Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOoXLpCA==",
+    "node": {
+      "author": {
+        "login": "awf-autoware-bot"
+      },
+      "title": "chore: sync files",
+      "createdAt": "2025-07-31T00:20:43Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-07-31T00:20:51Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOoZ_bRQ==",
+    "node": {
+      "author": {
+        "login": "dependabot"
+      },
+      "title": "build(deps): bump actions/create-github-app-token from 1 to 2",
+      "createdAt": "2025-08-01T00:54:44Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-08-01T00:54:53Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-09-30T01:09:27Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOrP8CDQ==",
+    "node": {
+      "author": {
+        "login": "PanConChicharron"
+      },
+      "title": "temp change to autoware_msgs",
+      "createdAt": "2025-10-10T01:32:00Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-10-10T01:32:09Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOrQ-A0g==",
+    "node": {
+      "author": {
+        "login": "isamu-takagi"
+      },
+      "title": "feat(autoware_evaluation_msgs): create package",
+      "createdAt": "2025-10-10T10:41:40Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-10-10T10:41:49Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOrdX0jw==",
+    "node": {
+      "author": {
+        "login": "PanConChicharron"
+      },
+      "title": "feat(autoware_planning_msgs): added srv to package",
+      "createdAt": "2025-10-15T09:11:42Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-10-15T09:11:52Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2025-10-16T06:28:23Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "codecov"
+              },
+              "createdAt": "2025-10-20T01:24:56Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOryvp1A==",
+    "node": {
+      "author": {
+        "login": "awf-autoware-bot"
+      },
+      "title": "chore: bump version (1.11.0) and update changelog",
+      "createdAt": "2025-10-23T01:25:37Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-10-23T01:25:45Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpHOryv0Rw==",
+    "node": {
+      "author": {
+        "login": "awf-autoware-bot"
+      },
+      "title": "chore: bump version (1.11.0) and update changelog",
+      "createdAt": "2025-10-23T01:28:00Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "github-actions"
+              },
+              "createdAt": "2025-10-23T01:28:08Z"
             }
           }
         ]

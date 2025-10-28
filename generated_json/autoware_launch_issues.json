@@ -1,6 +1,6 @@
 [
   {
-    "cursor": "Y3Vyc29yOnYyOpHOSBHmuA==",
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyMi0wNC0yMFQxMzowNDo1NyswOTowMM5IEea4",
     "node": {
       "author": {
         "login": "kenji-miyake"
@@ -16,13 +16,21 @@
               },
               "createdAt": "2022-06-19T04:38:59Z"
             }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2024-09-05T23:37:32Z"
+            }
           }
         ]
       }
     }
   },
   {
-    "cursor": "Y3Vyc29yOnYyOpHOSniz7g==",
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyMi0wNS0yNlQyMDowMzoyOSswOTowMM5KeLPu",
     "node": {
       "author": {
         "login": "esteve"
@@ -110,13 +118,29 @@
               },
               "createdAt": "2022-07-30T18:28:55Z"
             }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2024-09-05T23:37:34Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2024-09-06T08:40:32Z"
+            }
           }
         ]
       }
     }
   },
   {
-    "cursor": "Y3Vyc29yOnYyOpHOTX6vsQ==",
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyMi0wNy0xMVQxMjoxNzo1MSswOTowMM5Nfq-x",
     "node": {
       "author": {
         "login": "takayuki5168"
@@ -129,7 +153,7 @@
     }
   },
   {
-    "cursor": "Y3Vyc29yOnYyOpHOTkGS1w==",
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyMi0wNy0yMVQxODowMDozOSswOTowMM5OQZLX",
     "node": {
       "author": {
         "login": "mehmetdogru"
@@ -151,7 +175,7 @@
     }
   },
   {
-    "cursor": "Y3Vyc29yOnYyOpHOToylQw==",
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyMi0wNy0yNlQxNjo0OToyNyswOTowMM5OjKVD",
     "node": {
       "author": {
         "login": "takayuki5168"
@@ -277,7 +301,7 @@
     }
   },
   {
-    "cursor": "Y3Vyc29yOnYyOpHOULVV2g==",
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyMi0wOC0yOVQxOToyNjo1MSswOTowMM5QtVXa",
     "node": {
       "author": {
         "login": "hasanzfdn"
@@ -290,7 +314,7 @@
     }
   },
   {
-    "cursor": "Y3Vyc29yOnYyOpHOUpI8dA==",
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyMi0wOS0yNlQxMToyNzoxNyswOTowMM5Skjx0",
     "node": {
       "author": {
         "login": "mitsudome-r"
@@ -306,13 +330,21 @@
               },
               "createdAt": "2022-11-25T04:36:17Z"
             }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2024-09-05T23:37:29Z"
+            }
           }
         ]
       }
     }
   },
   {
-    "cursor": "Y3Vyc29yOnYyOpHOWfEgIA==",
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyMi0xMi0yM1QxNjowMDowNiswOTowMM5Z8SAg",
     "node": {
       "author": {
         "login": "angry-crab"
@@ -328,13 +360,21 @@
               },
               "createdAt": "2023-03-18T18:13:46Z"
             }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2024-01-31T12:16:30Z"
+            }
           }
         ]
       }
     }
   },
   {
-    "cursor": "Y3Vyc29yOnYyOpHOXhvBGA==",
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyMy0wMi0xMFQxMToxMToxNCswOTowMM5eG8EY",
     "node": {
       "author": {
         "login": "kminoda"
@@ -342,12 +382,29 @@
       "title": "Create a sync workflow from node parameter (autoware.universe) to launch parameter (autoware_launch)",
       "createdAt": "2023-02-10T02:11:14Z",
       "comments": {
-        "edges": []
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2023-04-11T04:52:50Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2024-09-05T23:37:31Z"
+            }
+          }
+        ]
       }
     }
   },
   {
-    "cursor": "Y3Vyc29yOnYyOpHOXq-osw==",
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyMy0wMi0xN1QwOToyNjo1OSswOTowMM5er6iz",
     "node": {
       "author": {
         "login": "kenji-miyake"
@@ -387,13 +444,29 @@
               },
               "createdAt": "2023-02-17T05:26:20Z"
             }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2023-04-18T07:18:19Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2024-09-05T23:37:30Z"
+            }
           }
         ]
       }
     }
   },
   {
-    "cursor": "Y3Vyc29yOnYyOpHOXtRNXA==",
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyMy0wMi0yMFQxMDo0NzowOSswOTowMM5e1E1c",
     "node": {
       "author": {
         "login": "VRichardJP"
@@ -448,6 +521,448 @@
                 "login": "VRichardJP"
               },
               "createdAt": "2023-02-20T12:15:51Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyMy0wNC0wNFQyMDozMzowNyswOTowMM5ikab7",
+    "node": {
+      "author": {
+        "login": "VRichardJP"
+      },
+      "title": "logging simulator does not load maps anymore",
+      "createdAt": "2023-04-04T11:33:07Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2023-06-08T11:29:29Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyMy0wNC0xM1QxNzoyMzozMyswOTowMM5jTHcu",
+    "node": {
+      "author": {
+        "login": "VRichardJP"
+      },
+      "title": "`tier4_simulated_clock_rviz_plugin` does not work with `planning_simulator.launch.xml`",
+      "createdAt": "2023-04-13T08:23:33Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "maxime-clem"
+              },
+              "createdAt": "2023-04-13T08:29:59Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "VRichardJP"
+              },
+              "createdAt": "2023-04-13T08:33:40Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyMy0xMi0wOVQwODo1OTozMSswOTowMM55M_NM",
+    "node": {
+      "author": {
+        "login": "xuyuan-han"
+      },
+      "title": "Duplicate Declaration of Controller Parameter Paths in tier4_control_component.launch.xml",
+      "createdAt": "2023-12-08T23:59:31Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2024-02-07T03:36:20Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyMy0xMi0yOFQxMTozNToyNiswOTowMM56qWKx",
+    "node": {
+      "author": {
+        "login": "VRichardJP"
+      },
+      "title": "set default vehicle/sensor?",
+      "createdAt": "2023-12-28T02:35:26Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2024-01-31T11:53:06Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2024-01-31T11:56:32Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNC0wMy0yMVQxODo1NzozNCswOTowMM6DHMJy",
+    "node": {
+      "author": {
+        "login": "yoepav"
+      },
+      "title": "Autoware uses Wall Time for simulation instead of ROS time",
+      "createdAt": "2024-03-21T09:57:34Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "maxime-clem"
+              },
+              "createdAt": "2024-03-21T10:06:17Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "yoepav"
+              },
+              "createdAt": "2024-03-21T11:04:14Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "yoepav"
+              },
+              "createdAt": "2024-03-21T11:07:37Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "maxime-clem"
+              },
+              "createdAt": "2024-03-21T11:22:25Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "yoepav"
+              },
+              "createdAt": "2024-03-21T12:41:24Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNC0wNC0yNVQxMjo1NDo1MSswOTowMM6G3GW7",
+    "node": {
+      "author": {
+        "login": "SakodaShintaro"
+      },
+      "title": "An error occurs with flake8 in pre-commit.ci",
+      "createdAt": "2024-04-25T03:54:51Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "SakodaShintaro"
+              },
+              "createdAt": "2024-04-25T03:56:58Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNC0wNy0zMFQxOTo1NzowNCswOTowMM6RSe1z",
+    "node": {
+      "author": {
+        "login": "yuki-takagi-66"
+      },
+      "title": "Preparing settings to launch localization modules on planning_simulator",
+      "createdAt": "2024-07-30T10:57:04Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "yuki-takagi-66"
+              },
+              "createdAt": "2024-08-02T08:10:56Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "yuki-takagi-66"
+              },
+              "createdAt": "2024-08-14T07:14:52Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2024-10-19T02:03:06Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNC0xMS0xMVQxODo1Njo0MSswOTowMM6d4VuG",
+    "node": {
+      "author": {
+        "login": "yuki-takagi-66"
+      },
+      "title": "Update diagnostics settings structure",
+      "createdAt": "2024-11-11T09:56:41Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-01-14T03:57:34Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wNS0yN1QyMjoxODoxNSswOTowMM64aWqb",
+    "node": {
+      "author": {
+        "login": "xmfcx"
+      },
+      "title": "Add compatibility with Carla 0.10.0",
+      "createdAt": "2025-05-27T13:18:15Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2025-05-27T13:21:39Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "jerry73204"
+              },
+              "createdAt": "2025-05-27T22:28:11Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2025-05-27T22:43:43Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "jerry73204"
+              },
+              "createdAt": "2025-05-29T08:07:04Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "chishengshih"
+              },
+              "createdAt": "2025-06-10T12:58:57Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "chishengshih"
+              },
+              "createdAt": "2025-06-24T13:04:51Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "m-zain-khawaja"
+              },
+              "createdAt": "2025-06-24T13:30:52Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "jerry73204"
+              },
+              "createdAt": "2025-06-25T02:22:06Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "jerry73204"
+              },
+              "createdAt": "2025-06-30T03:18:41Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "Goldob"
+              },
+              "createdAt": "2025-07-01T15:13:23Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "Goldob"
+              },
+              "createdAt": "2025-07-08T12:55:51Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "Goldob"
+              },
+              "createdAt": "2025-07-30T10:37:30Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "m-zain-khawaja"
+              },
+              "createdAt": "2025-07-30T12:41:04Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "TechCraft0"
+              },
+              "createdAt": "2025-09-08T03:52:14Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "Goldob"
+              },
+              "createdAt": "2025-09-10T05:46:55Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "TechCraft0"
+              },
+              "createdAt": "2025-09-10T11:42:59Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "Goldob"
+              },
+              "createdAt": "2025-09-16T11:26:21Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "Goldob"
+              },
+              "createdAt": "2025-09-24T12:30:05Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wNy0xNFQxNToxNzozNyswOTowMM7AX9Wn",
+    "node": {
+      "author": {
+        "login": "shahriar0651"
+      },
+      "title": "launch description missing required argument 'pointcloud_container_name'  for  `e2e_simulator.launch.xml`",
+      "createdAt": "2025-07-14T06:17:37Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "shahriar0651"
+              },
+              "createdAt": "2025-07-18T22:48:37Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wOS0yOFQxNTowODozOSswOTowMM7OTOX1",
+    "node": {
+      "author": {
+        "login": "a-strong-python"
+      },
+      "title": "Planning Simulation: failed to generate_valid_path in Pull out and pull over scenario",
+      "createdAt": "2025-09-28T06:08:39Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "kosuke55"
+              },
+              "createdAt": "2025-10-03T05:41:20Z"
             }
           }
         ]

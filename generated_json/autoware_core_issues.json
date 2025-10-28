@@ -1,1 +1,1907 @@
-[]
+[
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNC0xMC0yOVQxNDowNDoxNiswOTowMM6cLC3G",
+    "node": {
+      "author": {
+        "login": "mitsudome-r"
+      },
+      "title": "Create AutowareBase Class",
+      "createdAt": "2024-10-29T05:04:16Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2024-10-29T05:06:43Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2024-12-28T09:52:13Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNC0xMC0yOVQxNDoyMDo0NSswOTowMM6cLHpI",
+    "node": {
+      "author": {
+        "login": "mitsudome-r"
+      },
+      "title": "Defining merge requirements for Autoware.Core",
+      "createdAt": "2024-10-29T05:20:45Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2024-12-28T09:52:11Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-04-20T17:02:51Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNC0xMS0wNlQxMzowNjowOCswOTowMM6dLSnB",
+    "node": {
+      "author": {
+        "login": "mitsudome-r"
+      },
+      "title": "Update GitHub workflows for Autoware Core",
+      "createdAt": "2024-11-06T04:06:08Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-01-11T01:28:36Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-04-20T17:02:50Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNC0xMS0xNFQyMjoxMjoxOCswOTowMM6eeZ5a",
+    "node": {
+      "author": {
+        "login": "mitsudome-r"
+      },
+      "title": "Port autoware_map_loader from Autoware Universe to Autoware Core",
+      "createdAt": "2024-11-14T13:12:18Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-02-17T01:36:11Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNC0xMi0xMlQxNDowNDoxOSswOTowMM6jAhoI",
+    "node": {
+      "author": {
+        "login": "soblin"
+      },
+      "title": "Remove unnecessary symbol export in header files for API management",
+      "createdAt": "2024-12-12T05:04:19Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-02-15T14:45:48Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNC0xMi0xOVQxMDozMTozMyswOTowMM6j2zhG",
+    "node": {
+      "author": {
+        "login": "cyn-liu"
+      },
+      "title": "Port 'autoware_vehicle_info_utils' and 'autoware_universe_utils' from Autoware Universe to Autoware Core",
+      "createdAt": "2024-12-19T01:31:33Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "Motsu-san"
+              },
+              "createdAt": "2025-02-05T21:08:53Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-04-26T03:52:28Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNC0xMi0yNFQxMToyMToxMSswOTowMM6kVUYO",
+    "node": {
+      "author": {
+        "login": "shulanbushangshu"
+      },
+      "title": "Port 'autoware_motion_utils' from Autoware Universe to Autoware Core",
+      "createdAt": "2024-12-24T02:21:11Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-03-25T21:04:16Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNC0xMi0zMVQxOTowMzowOSswOTowMM6kwjzX",
+    "node": {
+      "author": {
+        "login": "liuXinGangChina"
+      },
+      "title": "Port ' autoware_gnss_poser ' from Autoware Universe to Autoware Core",
+      "createdAt": "2024-12-31T10:03:09Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "liuXinGangChina"
+              },
+              "createdAt": "2025-01-02T01:27:26Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2025-02-19T04:56:03Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wMS0wMlQxNjowNjo1MiswOTowMM6k1tNW",
+    "node": {
+      "author": {
+        "login": "NorahXiong"
+      },
+      "title": "Porting autoware_qp_interface from autoware.universe to autoware.core",
+      "createdAt": "2025-01-02T07:06:52Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-03-14T12:22:47Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wMS0wM1QxMDoyMzo0OCswOTowMM6k6s70",
+    "node": {
+      "author": {
+        "login": "liuXinGangChina"
+      },
+      "title": "Port 'autoware_localization_util' from Autoware Universe to Autoware Core",
+      "createdAt": "2025-01-03T01:23:48Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-03-07T11:43:59Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wMS0wNlQxODo1Nzo0MSswOTowMM6lH0XF",
+    "node": {
+      "author": {
+        "login": "liuXinGangChina"
+      },
+      "title": "Port 'autoware_pcl_extension' from Autoware Universe to Autoware Core",
+      "createdAt": "2025-01-06T09:57:41Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wMS0wN1QxMzowMDowMSswOTowMM6lNwGA",
+    "node": {
+      "author": {
+        "login": "liuXinGangChina"
+      },
+      "title": "Port 'autoware_rtc_interface' from Autoware Universe to Autoware Core",
+      "createdAt": "2025-01-07T04:00:01Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "liuXinGangChina"
+              },
+              "createdAt": "2025-01-13T01:09:14Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wMS0wN1QyMDoxMjozOSswOTowMM6lQhFT",
+    "node": {
+      "author": {
+        "login": "NorahXiong"
+      },
+      "title": "Some advice about CICD configurations ",
+      "createdAt": "2025-01-07T11:12:39Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-03-08T13:45:44Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wMS0xM1QxMToyNzozNCswOTowMM6l30EF",
+    "node": {
+      "author": {
+        "login": "NorahXiong"
+      },
+      "title": "Porting autoware_osqp_interface from autoware.universe to autoware.core",
+      "createdAt": "2025-01-13T02:27:34Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-03-14T12:22:45Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wMS0xOVQxNDo1NToxNiswOTowMM6mvalG",
+    "node": {
+      "author": {
+        "login": "NorahXiong"
+      },
+      "title": "Porting autoware_interpolation from autoware.universe to autoware.core",
+      "createdAt": "2025-01-19T05:55:16Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-05-11T05:43:40Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wMS0yMFQxMTo1MToyNCswOTowMM6mxtt7",
+    "node": {
+      "author": {
+        "login": "Motsu-san"
+      },
+      "title": "Port 'autoware_ekf_localizer' from Autoware Universe to Autoware Core",
+      "createdAt": "2025-01-20T02:51:24Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "Motsu-san"
+              },
+              "createdAt": "2025-02-04T07:16:58Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "YamatoAndo"
+              },
+              "createdAt": "2025-04-11T06:05:05Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wMi0xNFQxMDoxMToyNCswOTowMM6qBJBe",
+    "node": {
+      "author": {
+        "login": "storrrrrrrrm"
+      },
+      "title": "Porting autoware_behavior_velocity_planner_common\u3001autoware_behavior_velocity_stop_line_module to autoware.core",
+      "createdAt": "2025-02-14T01:11:24Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "liuXinGangChina"
+              },
+              "createdAt": "2025-02-14T05:58:27Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wMi0xNFQxMTo1OTo1MyswOTowMM6qBnx1",
+    "node": {
+      "author": {
+        "login": "liuXinGangChina"
+      },
+      "title": "Port 'autoware_velocity_smother' from Autoware Universe to Autoware Core",
+      "createdAt": "2025-02-14T02:59:53Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "liuXinGangChina"
+              },
+              "createdAt": "2025-02-14T05:47:48Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "liuXinGangChina"
+              },
+              "createdAt": "2025-02-21T08:25:43Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "liuXinGangChina"
+              },
+              "createdAt": "2025-02-22T03:49:44Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wMi0xNVQwMDoyMDo1MyswOTowMM6qHFyr",
+    "node": {
+      "author": {
+        "login": "mitsudome-r"
+      },
+      "title": "Setup Autoware.Core Documentation Page",
+      "createdAt": "2025-02-14T15:20:53Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2025-02-14T15:24:27Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wMi0xN1QxOToyNjo0NSswOTowMM6qUL4K",
+    "node": {
+      "author": {
+        "login": "NorahXiong"
+      },
+      "title": "Porting  autoware_planning_test_manager from autoware.universe to autoware.core",
+      "createdAt": "2025-02-17T10:26:45Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "liuXinGangChina"
+              },
+              "createdAt": "2025-02-18T00:52:54Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2025-02-18T02:18:06Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-05-13T04:54:46Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wMi0xOFQxNzoxMToyMyswOTowMM6qct_s",
+    "node": {
+      "author": {
+        "login": "mitsudome-r"
+      },
+      "title": "Port autoware_pyplot",
+      "createdAt": "2025-02-18T08:11:23Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wMi0yMFQxNDoyMjowNyswOTowMM6qxiUZ",
+    "node": {
+      "author": {
+        "login": "sthakur-ymsli"
+      },
+      "title": "Initial Pose Issue in EKF localizer",
+      "createdAt": "2025-02-20T05:22:07Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "YamatoAndo"
+              },
+              "createdAt": "2025-02-20T07:33:24Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-04-21T21:57:05Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wMi0yMVQxNDozMTowMyswOTowMM6q8sHe",
+    "node": {
+      "author": {
+        "login": "xmfcx"
+      },
+      "title": "Implement Autoware Node & Control Center",
+      "createdAt": "2025-02-21T05:31:03Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2025-02-25T06:15:35Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2025-02-25T06:59:31Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2025-02-25T07:03:47Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "youtalk"
+              },
+              "createdAt": "2025-02-25T08:58:21Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wMi0yNlQxMzo1ODowMiswOTowMM6rrJfL",
+    "node": {
+      "author": {
+        "login": "xmfcx"
+      },
+      "title": "Remove the duplicated headers from autoware_planning_task_manager",
+      "createdAt": "2025-02-26T04:58:02Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wMi0yNlQxNzowMjo1MCswOTowMM6rssRL",
+    "node": {
+      "author": {
+        "login": "NorahXiong"
+      },
+      "title": "Porting autoware_motion_velocity_obstacle_stop_module from autoware.universe to autoware.core",
+      "createdAt": "2025-02-26T08:02:50Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "NorahXiong"
+              },
+              "createdAt": "2025-02-27T02:09:01Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "NorahXiong"
+              },
+              "createdAt": "2025-02-27T02:49:00Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "liuXinGangChina"
+              },
+              "createdAt": "2025-02-27T02:51:23Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "liuXinGangChina"
+              },
+              "createdAt": "2025-02-28T01:48:44Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "NorahXiong"
+              },
+              "createdAt": "2025-02-28T01:51:56Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "liuXinGangChina"
+              },
+              "createdAt": "2025-03-03T01:58:57Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wMy0wNFQyMDoxNTowMSswOTowMM6sfT1P",
+    "node": {
+      "author": {
+        "login": "sasakisasaki"
+      },
+      "title": "Refactoring Plan for `autoware_path_generator`",
+      "createdAt": "2025-03-04T11:15:01Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "sasakisasaki"
+              },
+              "createdAt": "2025-03-19T08:45:34Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-06-20T07:44:44Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wMy0xMlQxMzo1ODoxMyswOTowMM6tm6Jn",
+    "node": {
+      "author": {
+        "login": "mitsudome-r"
+      },
+      "title": "Implement autoware_core_launch that works with a simulator",
+      "createdAt": "2025-03-12T04:58:13Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2025-03-27T07:04:27Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wMy0xMlQxNDoxNTo0NSswOTowMM6tnChz",
+    "node": {
+      "author": {
+        "login": "mitsudome-r"
+      },
+      "title": "Replace tier4_planning_msgs::msg::VelocityLimit to autoware_internal_planning_msgs::msg::VelocityLimit",
+      "createdAt": "2025-03-12T05:15:45Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2025-03-14T09:26:20Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2025-03-14T09:32:10Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wMy0xMlQxNTozMTo1NSswOTowMM6tnp2S",
+    "node": {
+      "author": {
+        "login": "mitsudome-r"
+      },
+      "title": "Implement ground_filter package",
+      "createdAt": "2025-03-12T06:31:55Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "sasakisasaki"
+              },
+              "createdAt": "2025-03-27T07:00:06Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "sasakisasaki"
+              },
+              "createdAt": "2025-03-27T07:07:33Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wMy0xMlQxNTo1MToxNSswOTowMM6tnys0",
+    "node": {
+      "author": {
+        "login": "mitsudome-r"
+      },
+      "title": "Implement simpler version of mission_planner",
+      "createdAt": "2025-03-12T06:51:15Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wMy0xMlQxNjowMToxMCswOTowMM6tn456",
+    "node": {
+      "author": {
+        "login": "mitsudome-r"
+      },
+      "title": "implement crop_box_filter",
+      "createdAt": "2025-03-12T07:01:10Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "liuXinGangChina"
+              },
+              "createdAt": "2025-03-12T08:07:41Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "liuXinGangChina"
+              },
+              "createdAt": "2025-03-13T11:38:37Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2025-03-13T13:08:41Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "liuXinGangChina"
+              },
+              "createdAt": "2025-03-14T01:27:28Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "liuXinGangChina"
+              },
+              "createdAt": "2025-03-14T11:40:50Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wMy0xNFQxOTo1NjoxNCswOTowMM6uCfZj",
+    "node": {
+      "author": {
+        "login": "youtalk"
+      },
+      "title": "Rename repository from `autoware.core` to `autoware_core`",
+      "createdAt": "2025-03-14T10:56:14Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wMy0xNFQxOTo1ODo1MiswOTowMM6uCg_t",
+    "node": {
+      "author": {
+        "login": "youtalk"
+      },
+      "title": "Create meta `autoware_core` package",
+      "createdAt": "2025-03-14T10:58:52Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wMy0xNFQyMDowMDoyMyswOTowMM6uCh4K",
+    "node": {
+      "author": {
+        "login": "youtalk"
+      },
+      "title": "Release version 1.0.0",
+      "createdAt": "2025-03-14T11:00:23Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wMy0xOFQyMToyNTowNSswOTowMM6uiucx",
+    "node": {
+      "author": {
+        "login": "youtalk"
+      },
+      "title": "Inherite `autoware::node::Node`",
+      "createdAt": "2025-03-18T12:25:05Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-05-17T15:03:23Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wMy0xOVQxNDoxMjoyNiswOTowMM6uq34x",
+    "node": {
+      "author": {
+        "login": "NorahXiong"
+      },
+      "title": "Mismatched namespace of LoggerLevelConfigure",
+      "createdAt": "2025-03-19T05:12:26Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "NorahXiong"
+              },
+              "createdAt": "2025-03-19T07:27:05Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2025-03-19T07:45:56Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "NorahXiong"
+              },
+              "createdAt": "2025-03-19T07:58:13Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "youtalk"
+              },
+              "createdAt": "2025-03-21T02:10:32Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "youtalk"
+              },
+              "createdAt": "2025-03-24T02:50:33Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wMy0yNFQxMjoyMzo0MiswOTowMM6vWWAJ",
+    "node": {
+      "author": {
+        "login": "soblin"
+      },
+      "title": "Improve the code quality and poor document of autoware_trajectory package",
+      "createdAt": "2025-03-24T03:23:42Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-05-23T04:01:00Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wMy0yNVQxMTozMzoxNyswOTowMM6viRwx",
+    "node": {
+      "author": {
+        "login": "mitsudome-r"
+      },
+      "title": "Port localization package for Core",
+      "createdAt": "2025-03-25T02:33:17Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wMy0yNlQxNDo1MzoyOCswOTowMM6vviZK",
+    "node": {
+      "author": {
+        "login": "sasakisasaki"
+      },
+      "title": "Improve the package quality of copied `scan_ground_filter` (from `autoware.universe`) package",
+      "createdAt": "2025-03-26T05:53:28Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-06-09T08:34:32Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wMy0yNlQxNzoxNTowMiswOTowMM6vwiyM",
+    "node": {
+      "author": {
+        "login": "soblin"
+      },
+      "title": "improve behavior_velocity_planner to Core level",
+      "createdAt": "2025-03-26T08:15:02Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-06-02T10:24:09Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wNC0wN1QxODo1Njo0MSswOTowMM6xZs_j",
+    "node": {
+      "author": {
+        "login": "MertClk"
+      },
+      "title": "route_handler: Overlapping lanes might cause selection of longer route",
+      "createdAt": "2025-04-07T09:56:41Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wNC0xNVQxNzo1NDozMiswOTowMM6yjo8j",
+    "node": {
+      "author": {
+        "login": "mitsudome-r"
+      },
+      "title": "Port lanelet2_map_visualizer package",
+      "createdAt": "2025-04-15T08:54:32Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2025-05-14T03:22:14Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wNC0xNVQxNzo1ODo0OSswOTowMM6yjr7N",
+    "node": {
+      "author": {
+        "login": "mitsudome-r"
+      },
+      "title": "Port Detection Area module from Autoware Universe to Core",
+      "createdAt": "2025-04-15T08:58:49Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-06-14T09:38:42Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wNC0xNVQxODowMDoyNyswOTowMM6yjtGG",
+    "node": {
+      "author": {
+        "login": "mitsudome-r"
+      },
+      "title": "Port gyro_odometer package from Autoware Universe to Core",
+      "createdAt": "2025-04-15T09:00:27Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wNC0xNlQxNjoxNDozNyswOTowMM6yvHxv",
+    "node": {
+      "author": {
+        "login": "isamu-takagi"
+      },
+      "title": "Replace autoware_utils in common component",
+      "createdAt": "2025-04-16T07:14:37Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-06-16T05:46:15Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wNC0xNlQxNjoyMDoxMCswOTowMM6yvK_P",
+    "node": {
+      "author": {
+        "login": "isamu-takagi"
+      },
+      "title": "Replace autoware_utils in planning component",
+      "createdAt": "2025-04-16T07:20:10Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "a-maumau"
+              },
+              "createdAt": "2025-04-21T01:26:03Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "a-maumau"
+              },
+              "createdAt": "2025-04-21T01:49:28Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "a-maumau"
+              },
+              "createdAt": "2025-04-24T06:57:23Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "a-maumau"
+              },
+              "createdAt": "2025-04-24T07:07:43Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "a-maumau"
+              },
+              "createdAt": "2025-04-24T07:28:29Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "a-maumau"
+              },
+              "createdAt": "2025-04-24T07:45:37Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "a-maumau"
+              },
+              "createdAt": "2025-04-24T08:11:59Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "a-maumau"
+              },
+              "createdAt": "2025-04-24T08:28:33Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "a-maumau"
+              },
+              "createdAt": "2025-04-24T08:51:57Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "a-maumau"
+              },
+              "createdAt": "2025-04-24T08:58:57Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "a-maumau"
+              },
+              "createdAt": "2025-04-24T09:03:55Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-06-23T11:01:39Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wNC0xNlQxNjoyMjowMyswOTowMM6yvMAp",
+    "node": {
+      "author": {
+        "login": "isamu-takagi"
+      },
+      "title": "Replace autoware_utils in control component",
+      "createdAt": "2025-04-16T07:22:03Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "a-maumau"
+              },
+              "createdAt": "2025-04-18T07:42:04Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "a-maumau"
+              },
+              "createdAt": "2025-04-18T07:53:49Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-06-21T07:03:27Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wNC0xNlQxNjoyMjo1MyswOTowMM6yvMnA",
+    "node": {
+      "author": {
+        "login": "isamu-takagi"
+      },
+      "title": "Replace autoware_utils in perception component",
+      "createdAt": "2025-04-16T07:22:53Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "a-maumau"
+              },
+              "createdAt": "2025-04-18T07:54:37Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "a-maumau"
+              },
+              "createdAt": "2025-04-18T08:30:22Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-06-17T08:30:42Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wNC0xNlQxNjoyNDoyNCswOTowMM6yvNdN",
+    "node": {
+      "author": {
+        "login": "isamu-takagi"
+      },
+      "title": "Replace autoware_utils in sensing component",
+      "createdAt": "2025-04-16T07:24:24Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "a-maumau"
+              },
+              "createdAt": "2025-04-18T08:31:21Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "a-maumau"
+              },
+              "createdAt": "2025-04-18T08:45:00Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-06-17T09:30:40Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wNC0xNlQxNjoyNTowMCswOTowMM6yvNyg",
+    "node": {
+      "author": {
+        "login": "isamu-takagi"
+      },
+      "title": "Replace autoware_utils in testing component",
+      "createdAt": "2025-04-16T07:25:00Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "a-maumau"
+              },
+              "createdAt": "2025-04-18T07:26:17Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "a-maumau"
+              },
+              "createdAt": "2025-04-18T07:39:58Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-06-17T08:30:43Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wNC0xNlQxNjoyNTozNyswOTowMM6yvOHa",
+    "node": {
+      "author": {
+        "login": "isamu-takagi"
+      },
+      "title": "Replace autoware_utils in localization component",
+      "createdAt": "2025-04-16T07:25:37Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "YamatoAndo"
+              },
+              "createdAt": "2025-04-16T07:53:37Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "a-maumau"
+              },
+              "createdAt": "2025-04-17T03:54:49Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wNC0xNlQxODozODo1OCswOTowMM6ywh88",
+    "node": {
+      "author": {
+        "login": "YamatoAndo"
+      },
+      "title": "autoware_core/localization/autoware_ekf_localizer",
+      "createdAt": "2025-04-16T09:38:58Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "a-maumau"
+              },
+              "createdAt": "2025-04-17T02:01:09Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wNC0xOFQxODo1MDowNCswOTowMM6zFmuA",
+    "node": {
+      "author": {
+        "login": "NorahXiong"
+      },
+      "title": "Porting autoware_behavior_velocity_detection_area_module from universe to core",
+      "createdAt": "2025-04-18T09:50:04Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2025-06-20T11:38:04Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wNC0yMVQxMToxMzoyOSswOTowMM6zQUyZ",
+    "node": {
+      "author": {
+        "login": "storrrrrrrrm"
+      },
+      "title": "Porting autoware_gyro_odometer to autoware.core",
+      "createdAt": "2025-04-21T02:13:29Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wNC0yMVQxOTo1Mzo1OSswOTowMM6zTMwX",
+    "node": {
+      "author": {
+        "login": "NorahXiong"
+      },
+      "title": "Porting autoware_lanelet2_map_visualizer from universe to core",
+      "createdAt": "2025-04-21T10:53:59Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wNC0yM1QxNjo0MzozOCswOTowMM6zlxuV",
+    "node": {
+      "author": {
+        "login": "mitsudome-r"
+      },
+      "title": "Reimplement downsample filters",
+      "createdAt": "2025-04-23T07:43:38Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "NorahXiong"
+              },
+              "createdAt": "2025-04-23T09:50:17Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "liuXinGangChina"
+              },
+              "createdAt": "2025-04-24T07:04:46Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wNC0yM1QyMjozOTowOCswOTowMM6zpvM6",
+    "node": {
+      "author": {
+        "login": "TranHuuNhatHuy"
+      },
+      "title": "Porting autoware_pose_initializer from universe to core",
+      "createdAt": "2025-04-23T13:39:08Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-06-22T13:59:53Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wNC0yNFQxMjozMjozOCswOTowMM6zweWy",
+    "node": {
+      "author": {
+        "login": "soblin"
+      },
+      "title": "minimize RouteHandler feature by removing redundant APIs",
+      "createdAt": "2025-04-24T03:32:38Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-06-23T04:00:20Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wNC0yN1QxOToxMDoxOCswOTowMM60LwQJ",
+    "node": {
+      "author": {
+        "login": "liuXinGangChina"
+      },
+      "title": "porting euclidean_cluster_node to autoware.core",
+      "createdAt": "2025-04-27T10:10:18Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "liuXinGangChina"
+              },
+              "createdAt": "2025-04-28T05:46:04Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2025-04-28T07:15:14Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2025-04-30T02:13:16Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wNC0yOFQxMTo0NjoxMCswOTowMM60N8AJ",
+    "node": {
+      "author": {
+        "login": "liuXinGangChina"
+      },
+      "title": "porting ndt_scan_matcher to autoware.core",
+      "createdAt": "2025-04-28T02:46:10Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "liuXinGangChina"
+              },
+              "createdAt": "2025-04-28T05:46:09Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2025-04-28T07:11:53Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "NorahXiong"
+              },
+              "createdAt": "2025-05-23T07:12:20Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2025-05-23T10:05:49Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wNS0yMFQxMTozNDo0NCswOTowMM63T5c0",
+    "node": {
+      "author": {
+        "login": "taikitanaka3"
+      },
+      "title": "A path generator package misses autoware_planning_msgs dependency",
+      "createdAt": "2025-05-20T02:34:44Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "taikitanaka3"
+              },
+              "createdAt": "2025-05-22T07:01:38Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wNS0yMVQxODozODoxNyswOTowMM63judA",
+    "node": {
+      "author": {
+        "login": "liuXinGangChina"
+      },
+      "title": "porting autoware_pose_initializer to autoware.core",
+      "createdAt": "2025-05-21T09:38:17Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2025-06-20T11:37:13Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wNS0yNlQxMjoyOTozOSswOTowMM64K_9y",
+    "node": {
+      "author": {
+        "login": "alluring-mushroom"
+      },
+      "title": "autoware_lanelet2_utils doesn't build due to test in geometry.cpp",
+      "createdAt": "2025-05-26T03:29:39Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-07-25T05:56:00Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wNi0wNFQxOTozODo1MCswOTowMM65zwi4",
+    "node": {
+      "author": {
+        "login": "yuki-takagi-66"
+      },
+      "title": "update obstacle_stop_module features",
+      "createdAt": "2025-06-04T10:38:50Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wNi0xOFQxODoxMjozMSswOTowMM68HjN7",
+    "node": {
+      "author": {
+        "login": "mitsudome-r"
+      },
+      "title": "4. port ADAPI packages related to pos_initialization",
+      "createdAt": "2025-06-18T09:12:31Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wNi0xOFQxODoxNTozMyswOTowMM68Hlwv",
+    "node": {
+      "author": {
+        "login": "mitsudome-r"
+      },
+      "title": "Port AD API packages for localization and routing",
+      "createdAt": "2025-06-18T09:15:33Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wNy0xNFQxNjo0MTowNSswOTowMM7AYv9D",
+    "node": {
+      "author": {
+        "login": "yuki-takagi-66"
+      },
+      "title": "The sign reversed pitch is inserted in a motin_utils function.",
+      "createdAt": "2025-07-14T07:41:05Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "stale"
+              },
+              "createdAt": "2025-09-12T07:54:10Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0wOC0yOVQxNDozNTo1NiswOTowMM7ImghA",
+    "node": {
+      "author": {
+        "login": "liuXinGangChina"
+      },
+      "title": "Autoware.core support ROS2.JAZZY",
+      "createdAt": "2025-08-29T05:35:56Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "liuXinGangChina"
+              },
+              "createdAt": "2025-08-29T05:39:21Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "xmfcx"
+              },
+              "createdAt": "2025-08-29T06:58:52Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "liuXinGangChina"
+              },
+              "createdAt": "2025-08-29T11:01:01Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "esteve"
+              },
+              "createdAt": "2025-09-02T15:17:30Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "liuXinGangChina"
+              },
+              "createdAt": "2025-09-04T05:29:56Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0xMC0wNFQwMDo1Mzo1OCswOTowMM7PhT2h",
+    "node": {
+      "author": {
+        "login": "samuelp-correct-ai"
+      },
+      "title": "Build issue with autoware_utils_geometry",
+      "createdAt": "2025-10-03T15:53:58Z",
+      "comments": {
+        "edges": [
+          {
+            "node": {
+              "author": {
+                "login": "samuelp-correct-ai"
+              },
+              "createdAt": "2025-10-03T17:18:38Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "mitsudome-r"
+              },
+              "createdAt": "2025-10-27T11:55:49Z"
+            }
+          },
+          {
+            "node": {
+              "author": {
+                "login": "samuelp-correct-ai"
+              },
+              "createdAt": "2025-10-27T14:21:35Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0xMC0wNFQwMToxODo1NiswOTowMM7Phl3l",
+    "node": {
+      "author": {
+        "login": "samuelp-correct-ai"
+      },
+      "title": "Build issue with autoware_object_recognition_utils",
+      "createdAt": "2025-10-03T16:18:56Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "cursor": "Y3Vyc29yOnYyOpK5MjAyNS0xMC0wNlQxNzoxODozMiswOTowMM7Pyp9C",
+    "node": {
+      "author": {
+        "login": "soblin"
+      },
+      "title": "Unify test map location & remove hardcoded coordinates in unit tests",
+      "createdAt": "2025-10-06T08:18:32Z",
+      "comments": {
+        "edges": []
+      }
+    }
+  }
+]

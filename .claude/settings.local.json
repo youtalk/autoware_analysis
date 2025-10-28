@@ -7,7 +7,9 @@
       "Bash(python3 get_tier4_engineers.py)",
       "Bash(python3 remove_tier4_engineers.py)",
       "Bash(python3 get_stars.py)",
-      "Bash(python3 reformat_stargazers.py)"
+      "Bash(python3 reformat_stargazers.py)",
+      "Bash(dot -Tpng:*)",
+      "Bash(dot:*)"
     ],
     "deny": [],
     "ask": []
